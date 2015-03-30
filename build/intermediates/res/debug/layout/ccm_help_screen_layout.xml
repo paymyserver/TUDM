@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ccm_main_bg"
+    >
+
+    <LinearLayout
+       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <include 
+          android:id="@+id/include1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ccm_songremoval_title_height"
+        layout="@layout/ccm_header_layout"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/ccm_help_divider_margin_top"
+            android:layout_marginBottom="50dp" >
+
+            <TextView
+                android:id="@+id/ccmHelpContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/ccm_help_left_right_margin"
+                android:layout_marginRight="@dimen/ccm_help_left_right_margin"
+                android:autoLink="web"
+                android:text="@string/ccm_help_content_player"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/ccm_help_screen_message_text_size" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/F:/MADWP/ccm-android2/CCMAndroid/res/layout/ccm_help_screen_layout.xml -->

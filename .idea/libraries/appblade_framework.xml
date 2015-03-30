@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="appblade-framework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/appblade-framework.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

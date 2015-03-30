@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\MADWP\ccm-android2\CCMAndroid\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\pre-dexed\debug\android-support-v4-7de7b46aec7b67b7bdfe6932562e15d0236d8b51.jar" />
+    </item>
+    <item
+        jar="F:\MADWP\ccm-android2\CCMAndroid\libs\appblade-framework.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="f8c6f7a31e4ee7f33cf1ae896d586c4f248b5f27">
+        <dex dex="F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\pre-dexed\debug\appblade-framework-28a91d25bcd5edc107723ff756059733cc10fb38.jar" />
+    </item>
+    <item
+        jar="F:\MADWP\ccm-android2\CCMAndroid\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\pre-dexed\debug\gson-2.2.4-ce9cd212bdcc4f9c0109d78850c55733293a1bec.jar" />
+    </item>
+
+</items>
