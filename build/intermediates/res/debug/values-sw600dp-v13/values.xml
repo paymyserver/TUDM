@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/F:/MADWP/ccm-android2/CCMAndroid/res/values-sw600dp/dimens.xml -->
+    <!-- From: file:/F:/MADWP/TUDMAndroid/res/values-sw600dp/dimens.xml -->
     <eat-comment/>
     <dimen name="ccm_help_left_right_margin">40dp</dimen>
     <dimen name="ccm_help_screen_message_text_size">20sp</dimen>
@@ -19,7 +19,7 @@
     <dimen name="ccm_removesong_thumnail_image_width">130dp</dimen>
     <dimen name="ccm_songremoval_artist_and_album_size">16sp</dimen>
     <dimen name="ccm_songremoval_songtitle_size">18sp</dimen>
-    <!-- From: file:/F:/MADWP/ccm-android2/CCMAndroid/res/values-sw600dp/strings.xml -->
+    <!-- From: file:/F:/MADWP/TUDMAndroid/res/values-sw600dp/strings.xml -->
     <eat-comment/>
     <string name="screen_type">Android Tablet</string>
 </resources>

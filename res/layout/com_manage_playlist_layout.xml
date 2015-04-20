@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/tudm_header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/ccm_songremoval_title_height" />
+
+    <ListView
+        android:id="@+id/PlayListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1"
+        android:textColor="@color/ccm_need_help_text_color"></ListView>
+
+    <View
+        android:id="@+id/viewTop"
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/include1"
+        android:background="@color/ccm_playlistmanage_border"
+        android:textColor="@color/ccm_need_help_text_color"/>
+
+  <!--  <LinearLayout
+        android:id="@+id/llParentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewTop"
+        android:background="@color/ccm_cancel_text_color"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+        <ImageView
+            android:id="@+id/imgStickeyheader"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/manage_playlist_dayparting"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/txtStickeyheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="@string/com_manage_playlist_Dayparting"
+            android:textColor="@color/ccm_playlistmanage_header_text"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/llParentLayout"
+        android:background="@color/ccm_playlistmanage_border" />-->
+</RelativeLayout>

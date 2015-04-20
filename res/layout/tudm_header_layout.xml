@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ccm_songremove_title_background"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/ccm_header_back_left_margin"
+        android:src="@drawable/ccm_back_arrow" />
+
+    <ImageView
+        android:id="@+id/manageMessageCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="40"
+        android:src="@drawable/ccm_cancel_icon"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="@color/ccm_need_help_text_color"
+        android:textSize="@dimen/ccm_songremoval_title_text_size" />
+
+</RelativeLayout>

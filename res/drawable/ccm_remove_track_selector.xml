@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Disabled State -->
+    <item android:alpha="0.7" android:drawable="@drawable/ccm_cancel_disable_icon" android:state_enabled="false" />
+    <!-- Default State -->
+    <item android:drawable="@drawable/ccm_cancel_icon" />
+
+</selector>

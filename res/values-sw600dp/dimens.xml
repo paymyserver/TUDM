@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CCM Login screen related dimensions. -->
+    <dimen name="ccm_login_signin_drawable_padding">80dp</dimen>
+    <dimen name="ccm_login_left_margin">60dp</dimen>
+    <dimen name="ccm_login_right_margin">60dp</dimen>
+    <dimen name="ccm_login_submit_left_right_margin">100dp</dimen>
+
+    <!-- CCM Player screen related dimension. -->
+
+    <dimen name="ccm_player_song_info_text_size">22sp</dimen>
+    <dimen name="ccm_player_artist_info_text_size">19sp</dimen>
+    <dimen name="ccm_player_action_text_size">18sp</dimen>
+    <dimen name="ccm_player_action_pannel_left_margin">100dp</dimen>
+    <dimen name="ccm_player_action_pannel_right_margin">100dp</dimen>
+
+    <!-- CCM Help screen related dimension. -->
+    <dimen name="ccm_help_screen_need_help_left_margin">10dp</dimen>
+    <dimen name="ccm_help_screen_message_text_size">20sp</dimen>
+    <dimen name="ccm_help_left_right_margin">40dp</dimen>
+
+    <!--Song removal screen dimensions  -->
+    <dimen name="ccm_removesong_thumnail_image_width">130dp</dimen>
+    <dimen name="ccm_removesong_thumnail_image_height">110dp</dimen>
+    <dimen name="ccm_songremoval_songtitle_size">18sp</dimen>
+    <dimen name="ccm_songremoval_artist_and_album_size">16sp</dimen>
+    <dimen name="ccm_removesong_remove_song_action_margin_left_right">80dp</dimen>
+</resources>

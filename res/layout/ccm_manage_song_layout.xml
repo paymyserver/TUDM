@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/manageSongLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ccm_mmessage_layout_margin"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/manageSongListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ccm_mmessage_margin"
+                android:layout_marginRight="@dimen/ccm_mmessage_margin"
+                android:layout_marginTop="@dimen/ccm_mmessage_margin"
+                android:text="@string/ccm_msong_playlist"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/ccm_msong_playlist_title_size" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/manageSongSelect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/ccm_mmessage_margin"
+            android:layout_marginRight="@dimen/ccm_mmessage_margin"
+            android:layout_marginTop="@dimen/ccm_mmessage_margin"
+            android:layout_weight="30"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/manageSongeSelectTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circular_corners"
+                android:gravity="center"
+                android:padding="@dimen/ccm_mmessage_padding"
+                android:text="@string/ccm_msong_select"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/ccm_msong_playlist_select_size" />
+
+            <ImageView
+                android:id="@+id/manageSongCheckImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ccm_manage_messages_check"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/manageSongeActiveTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ccm_mmessage_margin"
+        android:layout_marginRight="@dimen/ccm_mmessage_margin"
+        android:layout_marginTop="@dimen/ccm_mmessage_margin"
+        android:layout_marginBottom="@dimen/ccm_mmessage_margin"
+        android:text="@string/ccm_msong_preset_is_active"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/ccm_msong_playlist_select_size" />
+
+</LinearLayout>

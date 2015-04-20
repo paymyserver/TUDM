@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape>
+        <solid android:color="@color/ccm_pressed_state_color" />
+    </shape></item>
+    <item android:state_focused="true"><shape>
+        <solid android:color="@color/ccm_action_button_backgroud_hover" />
+    </shape></item>
+    <item android:drawable="@android:color/transparent"/>
+
+</selector><!-- From: file:/F:/MADWP/TUDMAndroid/res/drawable-hdpi/photogrid_selector.xml -->

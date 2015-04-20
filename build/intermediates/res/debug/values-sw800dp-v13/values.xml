@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/F:/MADWP/ccm-android2/CCMAndroid/res/values-sw800dp/dimens.xml -->
+    <!-- From: file:/F:/MADWP/TUDMAndroid/res/values-sw800dp/dimens.xml -->
     <eat-comment/>
     <dimen name="ccm_login_signin_drawable_padding">190dp</dimen>
 </resources>

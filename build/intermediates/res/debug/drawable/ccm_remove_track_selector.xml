@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Disabled State -->
-    <item android:drawable="@drawable/ccm_cancel_disable_icon" android:state_enabled="false" android:alpha="0.7"/>
+    <item android:alpha="0.7" android:drawable="@drawable/ccm_cancel_disable_icon" android:state_enabled="false" />
     <!-- Default State -->
-    <item android:drawable="@drawable/ccm_cancel_icon"/>
+    <item android:drawable="@drawable/ccm_cancel_icon" />
 
 </selector>
-<!-- From: file:/F:/MADWP/ccm-android2/CCMAndroid/res/drawable/ccm_remove_track_selector.xml -->
+<!-- From: file:/F:/MADWP/TUDMAndroid/res/drawable/ccm_remove_track_selector.xml -->

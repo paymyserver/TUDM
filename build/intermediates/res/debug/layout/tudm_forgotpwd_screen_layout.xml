@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true">
+
+    <!-- Layout containing the main components of login screen. -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- CCM application logo -->
+
+        <ImageView
+            android:id="@+id/ccmLogo"
+            android:layout_width="@dimen/ccm_login_app_logo_width"
+            android:layout_height="wrap_content"
+            android:src="@drawable/app_logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/ccm_player_track_background_padding_top_bottom"
+            android:paddingLeft="@dimen/ccm_player_track_background_padding_left_right"
+            android:paddingRight="@dimen/ccm_player_track_background_padding_left_right"
+            android:paddingTop="@dimen/ccm_player_track_background_padding_top_bottom"
+            android:layout_below="@+id/ccmLogo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/ccm_forgot_bottom_margin"
+                android:layout_marginLeft="@dimen/ccm_forgot_left_margin"
+                android:layout_marginTop="@dimen/ccm_forgot_top_margin"
+                android:text="@string/ccm_forgot_pwd_tittle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/ccm_action_button_backgroud_default" />
+
+            <!-- CCM username field to let user to type the username. -->
+
+            <LinearLayout
+                android:id="@+id/loginPanel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/heading"
+                android:layout_centerHorizontal="true">
+
+                <EditText
+                    android:id="@+id/ccmUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/ccm_forgot_left_margin"
+                    android:layout_marginRight="@dimen/ccm_forgot_right_margin"
+                    android:background="@drawable/ccm_login_edit_bg"
+                    android:hint="@string/ccm_login_username_hint"
+                    android:padding="@dimen/ccm_login_edit_fields_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/ccm_login_username_text_color" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/ccm_forgot_left_margin"
+                    android:layout_marginRight="@dimen/ccm_forgot_right_margin"
+                    android:layout_marginTop="@dimen/ccm_forgot_top_margin">
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/ccm_action_button_backgroud_disabled" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/ccm_forgot_left_margin"
+                        android:layout_marginRight="@dimen/ccm_forgot_right_margin"
+                        android:text="@string/ccm_or"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/ccm_action_button_backgroud_disabled" />
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/ccm_action_button_backgroud_disabled" />
+                </LinearLayout>
+
+                <!-- CCM password field to let user to type the password. -->
+
+                <EditText
+                    android:id="@+id/ccmEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/ccm_forgot_left_margin"
+                    android:layout_marginRight="@dimen/ccm_forgot_right_margin"
+                    android:layout_marginTop="@dimen/ccm_forgot_top_margin"
+                    android:background="@drawable/ccm_login_edit_bg"
+                    android:hint="@string/ccm_email_id"
+                    android:padding="@dimen/ccm_login_edit_fields_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/ccm_login_password_email_text_color" />
+            </LinearLayout>
+
+            <!-- CCM action button to let user to login. -->
+
+            <Button
+                android:id="@+id/ccmSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loginPanel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/ccm_forgot_left_margin"
+                android:layout_marginRight="@dimen/ccm_forgot_right_margin"
+                android:layout_marginTop="@dimen/ccm_login_action_btn_top_margin"
+                android:background="@drawable/ccm_app_action_btn"
+                android:paddingBottom="@dimen/ccm_button_padding_top_bottom"
+                android:paddingTop="@dimen/ccm_button_padding_top_bottom"
+                android:text="@string/ccm_submit_btn"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/ccm_button_text_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/ccm_login_button_background"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ccmLogin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/ccm_generic_transparent_bg_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/ccm_login_bottom_bar_padding_top_bottom"
+                android:paddingTop="@dimen/ccm_login_bottom_bar_padding_top_bottom">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ccm_forgot_bottom_button_image_bottom_margin"
+                    android:layout_marginTop="@dimen/ccm_forgot_bottom_button_image_top_margin"
+                    android:src="@drawable/ccm_large_login_icon"></ImageView>
+
+                <TextView
+                    android:id="@+id/ccmSignInText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:focusableInTouchMode="false"
+                    android:text="@string/ccm_login_text"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/ccmHelp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@drawable/ccm_generic_transparent_bg_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/ccm_login_bottom_bar_padding_top_bottom"
+                android:paddingTop="@dimen/ccm_login_bottom_bar_padding_top_bottom">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ccm_forgot_bottom_button_image_bottom_margin"
+                    android:src="@drawable/ccm_help_icon">
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/ccmNeedHelpText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:focusableInTouchMode="false"
+                    android:text="@string/ccm_login_help"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/F:/MADWP/TUDMAndroid/res/layout/tudm_forgotpwd_screen_layout.xml -->

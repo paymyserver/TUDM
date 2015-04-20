@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cloudcovermusic.ccm"
+    package="com.turnupdmood.tudm"
     android:versionCode="1"
     android:versionName="1.4" >
 
@@ -21,14 +21,18 @@
 
     <intent android:action="android.settings.WIRELESS_SETTINGS" />
 
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
     <application
-        android:name="com.cloudcovermusic.ccm.CCMApplication"
+        android:name="com.turnupdmood.tudm.TUDMApplication"
         android:allowBackup="true"
         android:icon="@drawable/app_logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.cloudcovermusic.ccm.CCMLogin"
+            android:name="com.turnupdmood.tudm.TUDMLogin"
             android:configChanges="orientation"
             android:hardwareAccelerated="false"
             android:label="@string/app_name"
@@ -41,7 +45,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.cloudcovermusic.ccm.CCMPlayer"
+            android:name="com.turnupdmood.tudm.TUDMPlayer"
             android:configChanges="orientation"
             android:exported="true"
             android:label="@string/app_name"
@@ -49,48 +53,48 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.cloudcovermusic.ccm.CCMSettingActivity"
+            android:name="com.turnupdmood.tudm.TUDMSettingActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.cloudcovermusic.ccm.CCMHelp"
+            android:name="com.turnupdmood.tudm.TUDMHelp"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.cloudcovermusic.ccm.CCMForgotPwd"
+            android:name="com.turnupdmood.tudm.TUDMForgotPwd"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
-            android:name="com.cloudcovermusic.ccm.CCMPolicyTerms"
+            android:name="com.turnupdmood.tudm.TUDMPolicyTerms"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.cloudcovermusic.ccm.CCMDeviceList"
+            android:name="com.turnupdmood.tudm.TUDMDeviceList"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.cloudcovermusic.ccm.CCMSongRemoval"
-            android:configChanges="orientation"
-            android:hardwareAccelerated="true"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.cloudcovermusic.ccm.CCMPlayListManager"
+            android:name="com.turnupdmood.tudm.TUDMSongRemoval"
             android:configChanges="orientation"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.cloudcovermusic.ccm.CCMManageMessage"
+            android:name="com.turnupdmood.tudm.TUDMPlayListManager"
+            android:configChanges="orientation"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.turnupdmood.tudm.TUDMManageMessage"
             android:configChanges="orientation"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
@@ -98,14 +102,14 @@
         </activity>
 
         <service
-            android:name="com.android.cloudcovermusic.service.CCMService"
+            android:name="com.android.tudm.service.TUDMService"
             android:stopWithTask="true" >
             <intent-filter>
                 <action android:name="com.android.cloudcovermusic.PLAY_TRACK" />
             </intent-filter>
         </service>
         <service
-            android:name="com.android.cloudcovermusic.service.CCMCachingService"
+            android:name="com.android.tudm.service.TUDMCachingService"
             android:stopWithTask="true" >
             <intent-filter>
                 <action android:name="com.android.cloudcovermusic.DOWNLOAD_TRACK" />
@@ -113,7 +117,7 @@
         </service>
 
         <receiver
-            android:name="com.android.cloudcovermusic.receiver.CCMReceiver"
+            android:name="com.android.tudm.receiver.TUDMReceiver"
             android:stopWithTask="true" >
             <intent-filter>
                 <action android:name="com.android.cloudcovermusic.DOWNLOAD_TRACK_COMPLETED" />
@@ -122,16 +126,32 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.android.cloudcovermusic.receiver.CCMCallReceiver"
+            android:name="com.android.tudm.receiver.TUDMCallReceiver"
             android:enabled="true"
             android:stopWithTask="true" >
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" />
             </intent-filter>
         </receiver>
-        <receiver
-            android:name="com.android.cloudcovermusic.receiver.CCMAlarmReceiver"
+        <!--
+            <receiver
+            android:name="com.android.tudm.receiver.CCMAlarmReceiver"
             android:stopWithTask="true" />
+        -->
+        <activity
+            android:name="com.turnupdmood.tudm.PlayListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.turnupdmood.tudm.Devotional" />
+        <activity android:name="com.turnupdmood.tudm.Chill" />
+        <activity
+            android:name="com.turnupdmood.tudm.TUDMUserPlaylist"
+            android:label="@string/title_activity_tudmuser_playist" >
+        </activity>
+        <activity
+            android:name="com.turnupdmood.tudm.Register_User"
+            android:label="@string/title_activity_register__user" >
+        </activity>
     </application>
 
 </manifest>

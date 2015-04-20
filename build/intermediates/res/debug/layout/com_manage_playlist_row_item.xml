@@ -2,95 +2,93 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
-    <LinearLayout 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
         android:id="@+id/llManageListItem"
-        android:orientation="vertical"
-        >
-    
-    <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-		android:orientation="horizontal"
-        >
-        <TextView 
-            android:id="@+id/txtTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:text="Textview Title"
-            android:layout_weight="1"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
-            android:textColor="@color/ccm_action_button_backgroud_default"
-            />
-        
-       <Button
-                android:id="@+id/btnSelect"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:background="@drawable/ccm_app_action_btn"
-                android:text="@string/ccm_manage_playlist_select_button"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/ccm_button_text_size"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:textStyle="bold" />
-       
-       <!--  <TextView 
-            android:id="@+id/txtMessage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_margin="5dp"
-            android:text="@string/com_mangage_playlist_playing"
-            android:textColor="@color/ccm_playlistmanage_active_playlist_titlecolor"
-            android:visibility="gone"
-            /> -->
-        
-        <ImageView 
-            android:id="@+id/imgPlaying"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginBottom="5dp"
-            android:background="@drawable/manage_playlist_station_playing"
-            android:visibility="gone"
-            />
-        
-    </LinearLayout>
-    
-      <TextView 
-          android:id="@+id/txtSubName"
+        android:orientation="vertical">
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:singleLine="true"
-            android:text="Textview Title Textview Title Textview Title Textview Title"
+            android:orientation="horizontal">
+
+            <!--<TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="Textview Title"
+                android:textColor="@color/ccm_action_button_backgroud_default"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+-->
+
+            <!--  <TextView
+                 android:id="@+id/txtMessage"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textStyle="bold"
+                 android:layout_margin="5dp"
+                 android:text="@string/com_mangage_playlist_playing"
+                 android:textColor="@color/ccm_playlistmanage_active_playlist_titlecolor"
+                 android:visibility="gone"
+                 /> -->
+
+           <!-- <ImageView
+                android:id="@+id/imgPlaying"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/manage_playlist_station_playing"
+                android:visibility="gone" />
+-->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtSubName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
-            android:visibility="visible"
+            android:singleLine="true"
+            android:text="Textview Title Textview Title Textview Title Textview Title"
+            android:visibility="visible" />
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="21dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/play"
+
             />
-      
-       <TextView 
-          android:id="@+id/txtDescriptoin"
+        <TextView
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/ccm_player_play"
+            android:textColor="@color/ccm_player_action_text_color"
+            android:textSize="@dimen/ccm_player_action_text_size" />
+
+       <!-- <TextView
+            android:id="@+id/txtDescriptoin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:maxLines="2"
             android:text="Textview Title Textview Title Textview Title Textview Title  Title Textview Title Textview Title"
-            android:layout_margin="10dp"
-            android:visibility="visible"
-            />
+            android:visibility="visible" />-->
+    </LinearLayout>
 </LinearLayout>
-</LinearLayout>
-<!-- From: file:/F:/MADWP/ccm-android2/CCMAndroid/res/layout/com_manage_playlist_row_item.xml -->
+<!-- From: file:/F:/MADWP/TUDMAndroid/res/layout/com_manage_playlist_row_item.xml -->

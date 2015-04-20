@@ -2,13 +2,13 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Pressed State -->
-    <item android:drawable="@drawable/ccm_player_actions_left_selector_state_bg_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/ccm_player_actions_left_selector_state_bg_pressed" android:state_pressed="true" />
     <!-- Default State -->
     <item>
-        <shape android:shape="rectangle" >
-            <corners android:topLeftRadius="5dp" android:bottomLeftRadius="5dp"/>
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="5dp" android:topLeftRadius="5dp" />
             <solid android:color="@android:color/transparent" />
         </shape>
     </item>
 
-</selector><!-- From: file:/F:/MADWP/ccm-android2/CCMAndroid/res/drawable/ccm_player_actions_left_transparent_bg_selector.xml -->
+</selector><!-- From: file:/F:/MADWP/TUDMAndroid/res/drawable/ccm_player_actions_left_transparent_bg_selector.xml -->

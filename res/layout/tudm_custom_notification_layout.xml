@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ccmAlbumArt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:src="@drawable/app_logo" />
+
+    <LinearLayout
+        android:id="@+id/ccmTrackInfoNoti"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ccmTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ccm_notification_margin"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Aahatein- The Splitsvilla 4 Theme Song"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/ccmArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ccm_notification_margin"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Agnee"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/ccm_pressed_state_color" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/ccm_notification_actions_right_margin"
+        android:layout_weight="0.4">
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ccm_notification_actions_right_margin"
+            android:layout_toLeftOf="@+id/cancel"
+            android:src="@drawable/ccm_play_icon" />
+
+        <ImageView
+            android:id="@+id/pause"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ccm_notification_actions_right_margin"
+            android:layout_toLeftOf="@+id/cancel"
+            android:src="@drawable/ccm_pause_icon" />
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ccm_close_cancel" />
+
+    </RelativeLayout>
+</LinearLayout>

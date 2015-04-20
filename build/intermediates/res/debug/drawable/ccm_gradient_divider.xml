@@ -1,6 +1,8 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle" >
+    android:shape="rectangle">
 
-    <gradient android:startColor="@android:color/black" android:endColor="@android:color/white"/>
+    <gradient
+        android:endColor="@android:color/white"
+        android:startColor="@android:color/black" />
 
-</shape><!-- From: file:/F:/MADWP/ccm-android2/CCMAndroid/res/drawable/ccm_gradient_divider.xml -->
+</shape><!-- From: file:/F:/MADWP/TUDMAndroid/res/drawable/ccm_gradient_divider.xml -->

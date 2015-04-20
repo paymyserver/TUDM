@@ -1,0 +1,5 @@
+<resources>
+
+    <!-- CCM Login screen related dimensions. -->
+    <dimen name="ccm_login_signin_drawable_padding">190dp</dimen>
+</resources>

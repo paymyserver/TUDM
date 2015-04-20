@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Generic strings -->
+
+    <string name="app_name">TurnUpDMood</string>
+    <string name="error_network_unavailable">Your device has lost its Internet connection.</string>
+    <string name="error_network_unavailable_subtitle">The music will resume when a connection is re-established.</string>
+    <string name="error_validate_credentials_failed">Not able to validate credentials.</string>
+    <string name="error_bad_request">Invalid username or password.</string>
+    <string name="error_internal_server">Internal server error.</string>
+    <string name="error_server_unreachable">Server unreachable.</string>
+    <string name="error_unauthorized">Login failed due to authorization error.</string>
+    <string name="error_unprocessable_request">Login failed due unprocessable paramters.</string>
+    <string name="error_msg_incorrect_username_or_password">Incorrect username or password.</string>
+    <string name="error_msg_failed_json_conversion">Failed while json conversion.</string>
+    <string name="toast_message_application_recovering">Application had crashed unexpectedly!!</string>
+    <string name="ccm_menu_option_settings">Settings</string>
+    <string name="ccm_settings_category_performance">Performance Improvement Settings</string>
+    <string name="ccm_settings_category_server">Developer Settings</string>
+    <string name="ccm_settings_server_domain_title">TUDM Server Domain</string>
+
+
+    <string name="ccm_settings_server_domain_summary">Tap to set the TUDM Server Domain</string>
+    <string name="ccm_settings_album_art_title">Disable Album Art</string>
+    <string name="ccm_settings_album_art_summary">Check this setting to reduce network usage</string>
+    <string name="ccm_retry_in_time">Automatically retry in %d seconds...</string>
+    <string name="ccm_reached_max_limit_for_skip_track">You can only skip 6 songs.</string>
+    <string name="ccm_select_button">Select</string>
+
+    <!-- CCM Player screen related strings. -->
+    <string name="ccm_player_track_init_progress_message">Initializing track...</string>
+    <string name="ccm_player_track_retry_init_progress_message">Retry Initializing track...</string>
+    <string name="ccm_player_player_inactive_message">Inactive Player...</string>
+    <!-- Device is inactive on server. Activate on server and try again. -->
+    <string name="ccm_player_player_undefined_message">Unspecified error, player is inactive.</string>
+    <string name="ccm_player_player_empty_playlist_message">Playlist is empty, set the playlist on the server and try again.</string>
+    <string name="ccm_player_track_unplayable_message">Not able to play this track. Try again.</string>
+    <string name="ccm_player_get_command_progress_message">Checking device state...</string>
+    <string name="ccm_player_get_next_track_progress_message">Getting next track...</string>
+    <string name="ccm_player_error_playing_track_message">Please Wait...</string>
+    <string name="ccm_player_error_playing_track_message_detail">We are setting up the streaming service</string>
+    <string name="ccm_player_activating_player_progress_message">Activating player. Please wait...</string>
+    <string name="ccm_try_again_button">Try Again</string>
+    <string name="ccm_player_device_info">Running on %s</string>
+    <string name="ccm_player_application_info">TUMD</string>
+    <string name="ccm_player_menu_option_logout">Log Out</string>
+    <string name="ccm_player_play">Play</string>
+    <string name="ccm_player_pause">Pause</string>
+    <string name="ccm_player_remove_song">Add To PlayList</string>
+    <string name="ccm_player_skip">Next</string>
+    <string name="ccm_player_cancel">CANCEL</string>
+    <string name="ccm_player_menu">Menu</string>
+    <string name="ccm_player_option_help">Need Help</string>
+    <string name="title_activity_maps">Map</string>
+     <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyA1vVyD5gEBfLUSaA8ps8RpUdKzs-pawcM
+    </string>
+    <string name="ccm_player_manage_device">Manage Devices</string>
+    <string name="ccm_player_manage_Playlist">Manage Music</string>
+    <string name="ccm_player_manage_device_title">Manage Device Activations</string>
+    <string name="ccm_active_cancel">CANCEL</string>
+
+    <string name="ccm_player_option_song_removal">Song Removal</string>
+
+    <string name="ccm_player_option_policy">Privacy Policy</string>
+    <string name="ccm_player_option_terms">Terms of Use</string>
+    <string name="ccm_player_option_sign_out">Sign Out</string>
+    <string name="ccm_player_option_about">About</string>
+    <string name="ccm_player_logging_out_progress_message">Logging out. Please wait...</string>
+    <string name="ccm_player_logout_failed_message">Unable to Log out.Try Again...</string>
+    <string name="ccm_player_wrong_station">Wrong Station</string>
+    <string name="ccm_player_inappropriate">Inappropriate</string>
+    <string name="ccm_player_dislike">Dislike</string>
+    <string name="ccm_player_removeing_song">Removing song...</string>
+    <string name="ccm_player_failed_removeing_song">Song is not removed from server playlist. </string>
+    <string name="ccm_player_sucess_removeing_song">Song is removed from server playlist.</string>
+    <string name="ccm_player_about_title">TurnUPDMood</string>
+    <string name="ccm_player_about_app_version">Android App v</string>
+    <string name="ccm_player_about_user_logedin">logged in</string>
+    <string name="ccm_player_about_contactus">Contact No 312-478-0886</string>
+
+    <string name="ccm_player_about_back">Back</string>
+    <string name="ccm_player_option_manage_playlist">Manage Music</string>
+    <string name="ccm_player_option_manage_message">Manage Messages</string>
+    <string name="ccm_player_set_playlist">Set Playlist</string>
+
+    <!-- CCM Login screen related strings. -->
+    <string name="ccm_login_username_hint">Username</string>
+    <string name="ccm_login_password_hint">Password</string>
+    <string name="ccm_login_button">SIGN IN</string>
+
+    <string name="ccm_login_text">Sign In</string>
+    <string name="ccm_Register_button">Register</string>
+    <string name="ccm_Register_text">Register</string>
+    <string name="field_missing_msg">username or password cannot be left blank</string>
+    <string name="login_failed">Login Failed.</string>
+    <string name="sign_in_progress_message">Signing in...</string>
+    <string name="ccm_login_show_password">Show password</string>
+    <string name="ccm_login_forgot_password">Forgot Password?</string>
+    <string name="ccm_login_help">Need Help</string>
+
+    <!--CCM Help Screen Related strings  -->
+    <string name="ccm_help_content_login">You need to have a TurnUpDMood subscription in order to use this App. You Can register using the app.You will have to log in using credentials. If your password is not working, use the forgot password button.</string>
+    <string name="ccm_help_content_player">
+    This Screen is under Development
+    </string>
+
+    <!-- CCM Forgot Screen Strings -->
+    <string name="ccm_or">OR</string>
+    <string name="ccm_username">Username</string>
+    <string name="ccm_email_id">Account e-mail</string>
+    <string name="ccm_submit_btn">SUBMIT</string>
+    <string name="ccm_forgot_pwd_tittle">Reset your password</string>
+    <string name="ccm_ok">OK</string>
+    <string name="ccm_forgot_pwd_dialog_success_text">Link has been sent to your email id</string>
+    <string name="ccm_forgot_pwd_dialog_failure_text">Invalid username or e-mail id</string>
+    <string name="ccm_forgot_pwd_dialog_empty_text">username or e-mail id cannot be left blank.</string>
+    <string name="ccm_requesting">Processing Request..</string>
+
+    <!-- CCM DeviceList Screen Strings -->
+    <string name="ccm_are_u_sure">Are you sure?</string>
+    <string name="ccm_manage_device_alert_message">This will direct your stream to a new device, please confirm.</string>
+    <string name="ccm_song">Song</string>
+    <string name="ccm_status">Status</string>
+    <string name="ccm_getting_list_message">Getting device list...</string>
+    <string name="ccm_manage_device">Manage Device Acvitations</string>
+    <string name="screen_type">Android Phone</string>
+    <string name="ccm_active_message">Activating this device will de-active the active device! \n\nDo you wish to continue?</string>
+    <string name="ccm_devicelist_error_retriving_list">Not able to get device list</string>
+    <string name="ccm_devicelist_successfully_activated">Successfully Activated</string>
+
+    <!-- CCM Remove song Screen string -->
+
+    <string name="ccm_removesong_songtitle">Song title</string>
+    <string name="ccm_removesong_artist_and_album_name">Artist - Album Name</string>
+    <string name="ccm_removesong_play_song">Play Song</string>
+    <string name="ccm_removesong_preview_song">Preview Song</string>
+    <string name="ccm_removesong_remove_song">Remove Song</string>
+    <string name="ccm_removesong_please_wait">Please wait...</string>
+    <string name="ccm_removesong_preview_playing">Please wait till previous preview stops</string>
+    <string name="ccm_removesong_error_retriving_prevois_playlist">Not able to get playlist</string>
+    <string name="ccm_removesong_error_playing_track">Not able to play track</string>
+    <string name="ccm_removesong_wrong_station">Wrong Station</string>
+    <string name="ccm_removesong_inappropriate">Inappropriate</string>
+    <string name="ccm_removesong_dislike">Dislike</string>
+
+    <!-- CCM Manage Message Screen string  -->
+    <string name="ccm_msong_title">Manage Messages</string>
+    <string name="ccm_msong_select">ACTIVATE</string>
+    <string name="ccm_msong_playlist">Play list name</string>
+    <string name="ccm_msong_list_unsuccessful">Not able to get preset message list</string>
+    <string name="ccm_msong_preset_ussuccessful">Not able to deactivate preset message</string>
+    <string name="ccm_msong_preset_is_active">This preset is active</string>
+    <string name="ccm_msong_playno_messages"> <![CDATA[<b>Play no messages</b>  </br> <br> Are you sure?]]> </string>
+    <string name="ccm_msong_failed_preset_active">Failed to active preset messages</string>
+    <string name="ccm_msong_failed_preset_remove">Failed to deactive preset messages</string>
+    <string name="ccm_msong_no_preset">There are no message presets available. Please login with a computer browser and create one in our software.</string>
+    <string name="ccm_msong_no_pre_register">We are unable to find an active message- level subscription for this account. Contact our support department for questions or upgrades.</string>
+
+    <!--  CCM manage -->
+    <string name="com_mangage_playlist_playing">This Station is Playing</string>
+    <string name="com_mangage_playlist_active_message_1">The station</string>
+    <string name="com_mangage_playlist_active_message_2">is now playing It will take effect on the next song.</string>
+    <string name="com_manage_playlist_Dayparting">Dayparting Presets</string>
+    <string name="com_manage_playlist_Mix">Mix Stations</string>
+    <string name="ccm_manage_playlist_error_response">Failed to activate playlist</string>
+    <string name="com_manage_playlist_Public">TurnUpDMood</string>
+    <string name="ccm_manage_playlist_select_button">SELECT</string>
+    <string name="title_activity_play_list">PlayListActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="images">
+        <item>mb</item>
+        <item>mb</item>
+        <item>mb</item>
+        <item>mb</item><item>mb</item>
+        <item>mb</item>
+        <item>mb</item>
+
+
+    </string-array>
+    <string name="title_activity_tudmuser_playist">TUDMUserPlayist</string>
+    <string name="title_activity_register__user">Register_User</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="camera_demo_label">Welcome to TUDM</string>
+    <string name="stop_animation">\u25A0</string>
+    <string name="animate">Animate</string>
+    <string name="left_arrow">\u2190</string>
+    <string name="up_arrow">\u2191</string>
+    <string name="down_arrow">\u2193</string>
+    <string name="right_arrow">\u2192</string>
+    <string name="zoom_in">+</string>
+    <string name="zoom_out">-</string>
+    <string name="tilt_less">\u2193</string>
+    <string name="tilt_more">\u2191</string>
+    <string name="duration">Custom Duration</string>
+    <string name="go_to_Chicago">Go to Chicago</string>
+    <string name="go_to_santorini">Go to Santorini</string>
+    <string name="go_to_NY">Go to NY</string>
+    <string name="go_to_LA">Go to LA</string>
+
+</resources>

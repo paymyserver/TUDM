@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/ccm_songremoval_margin"
+    android:paddingTop="@dimen/ccm_songremoval_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ccmSongRemovaeImageViwe"
+                android:layout_width="@dimen/ccm_removesong_thumnail_image_width"
+                android:layout_height="@dimen/ccm_removesong_thumnail_image_height"
+                android:padding="@dimen/ccm_songremoval_imageview_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/ccm_no_album_art" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ccm_removesong_thumnail_image_height"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ccmRemoveSongTitle"
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ccm_removesong_songtitle"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/ccm_songremoval_songtitle_size" />
+
+            <TextView
+                android:id="@+id/ccmRemoveSongArtistAndAlbum"
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ccm_removesong_artist_and_album_name"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/ccm_songremoval_artist_and_album_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:id="@+id/ccmPlayAndRemoveSong"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <!-- Empty layout -->
+
+                <LinearLayout
+                    android:layout_width="@dimen/ccm_removesong_thumnail_image_width"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ccmRemoveSong_PlaySong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/playText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/ccm_removesong_preview_song"
+                        android:textColor="@color/ccm_translucent_background" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ProgressBar
+                            android:id="@+id/circularProgressBar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_shape"
+                            android:indeterminate="false"
+                            android:max="30"
+                            android:progressDrawable="@drawable/circular_progress_bar"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/ccm_play_preview"
+                            android:layout_width="@dimen/ccm_removesong_play_remove_image_width_height"
+                            android:layout_height="@dimen/ccm_removesong_play_remove_image_width_height"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ccm_play_icon" />
+
+                        <ImageView
+                            android:id="@+id/ccm_stop_preview"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ccm_stop_icon"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ccmRemoveSong_RemoveSong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/removeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ccm_removesong_remove_song"
+                        android:textColor="@color/ccm_translucent_background" />
+
+                    <ImageView
+                        android:layout_width="@dimen/ccm_removesong_play_remove_image_width_height"
+                        android:layout_height="@dimen/ccm_removesong_play_remove_image_width_height"
+                        android:src="@drawable/ccm_cancel_icon" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ccmRemovSong_Action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ccm_removesong_remove_song_action_margin_left_right"
+                android:layout_marginRight="@dimen/ccm_removesong_remove_song_action_margin_left_right"
+                android:layout_marginTop="@dimen/ccm_removesong_remove_song_action_margin_top"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/ccm_player_actions_bg"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:id="@+id/ccmRemovSongInapppropriate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="33"
+                        android:background="@drawable/ccm_player_actions_right_transparent_bg_selector"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/ccm_player_remove_action_paddin_top_bottom"
+                        android:paddingLeft="@dimen/ccm_songremoval_remove_action_paddin_left_right"
+                        android:paddingRight="@dimen/ccm_songremoval_remove_action_paddin_left_right"
+                        android:paddingTop="@dimen/ccm_player_remove_action_paddin_top_bottom">
+
+                        <ImageView
+                            android:layout_width="@dimen/ccm_removesong_remove_options_image_width_height"
+                            android:layout_height="@dimen/ccm_removesong_remove_options_image_width_height"
+                            android:src="@drawable/ccm_inappropriate_icon" />
+
+                        <TextView
+                            android:id="@+id/ccmInapppropritaeTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="@string/ccm_removesong_inappropriate"
+                            android:textColor="@color/ccm_player_action_text_color"
+                            android:textSize="@dimen/ccm_player_remove_action_text_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/ccm_player_action_bg_border" />
+
+                    <LinearLayout
+                        android:id="@+id/ccmRemovSongWrongstation"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="33"
+                        android:background="@drawable/ccm_player_actions_right_transparent_bg_selector"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/ccm_player_remove_action_paddin_top_bottom"
+                        android:paddingLeft="@dimen/ccm_songremoval_remove_action_paddin_left_right"
+                        android:paddingRight="@dimen/ccm_songremoval_remove_action_paddin_left_right"
+                        android:paddingTop="@dimen/ccm_player_remove_action_paddin_top_bottom">
+
+                        <ImageView
+                            android:layout_width="@dimen/ccm_removesong_remove_options_image_width_height"
+                            android:layout_height="@dimen/ccm_removesong_remove_options_image_width_height"
+                            android:src="@drawable/ccm_wrongstation_icon" />
+
+                        <TextView
+                            android:id="@+id/ccmWrongStationTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="@string/ccm_removesong_wrong_station"
+                            android:textColor="@color/ccm_player_action_text_color"
+                            android:textSize="@dimen/ccm_player_remove_action_text_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/ccm_player_action_bg_border" />
+
+                    <LinearLayout
+                        android:id="@+id/ccmRemovSongDislike"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="33"
+                        android:background="@drawable/ccm_player_actions_right_transparent_bg_selector"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/ccm_player_remove_action_paddin_top_bottom"
+                        android:paddingLeft="@dimen/ccm_songremoval_remove_action_paddin_left_right"
+                        android:paddingRight="@dimen/ccm_songremoval_remove_action_paddin_left_right"
+                        android:paddingTop="@dimen/ccm_player_remove_action_paddin_top_bottom">
+
+                        <ImageView
+                            android:layout_width="@dimen/ccm_removesong_remove_options_image_width_height"
+                            android:layout_height="@dimen/ccm_removesong_remove_options_image_width_height"
+                            android:src="@drawable/ccm_dislike_icon" />
+
+                        <TextView
+                            android:id="@+id/ccmDisLikeTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="@string/ccm_removesong_dislike"
+                            android:textColor="@color/ccm_player_action_text_color"
+                            android:textSize="@dimen/ccm_player_remove_action_text_size" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ccmRemovSongCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/ccm_songremoval_cancel_button_top_margin"
+                    android:layout_marginTop="@dimen/ccm_songremoval_cancel_button_top_margin"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ccmRemovSongCancelButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/ccm_songremoval_cancel_button_height"
+                        android:background="@drawable/ccm_app_action_btn"
+                        android:gravity="center"
+                        android:text="@string/ccm_player_cancel"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/ccm_songremoval_button_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/F:/MADWP/TUDMAndroid/res/layout/tudm_removesong_layout.xml -->

@@ -2,25 +2,46 @@
 <items version="2" >
 
     <item
-        jar="F:\MADWP\ccm-android2\CCMAndroid\libs\android-support-v4.jar"
+        jar="F:\MADWP\TUDMAndroid\libs\appblade-framework.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8c6f7a31e4ee7f33cf1ae896d586c4f248b5f27">
+        <dex dex="F:\MADWP\TUDMAndroid\build\intermediates\pre-dexed\debug\appblade-framework-0fd5e4149d6023ffc4f563dc20360514b5b9041f.jar" />
+    </item>
+    <item
+        jar="F:\MADWP\TUDMAndroid\libs\android-support-v4.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
-        <dex dex="F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\pre-dexed\debug\android-support-v4-7de7b46aec7b67b7bdfe6932562e15d0236d8b51.jar" />
+        <dex dex="F:\MADWP\TUDMAndroid\build\intermediates\pre-dexed\debug\android-support-v4-17035add97979f42d06e588965fdd66b2d746892.jar" />
     </item>
     <item
-        jar="F:\MADWP\ccm-android2\CCMAndroid\libs\appblade-framework.jar"
+        jar="F:\MADWP\TUDMAndroid\libs\appblade-framework.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="f8c6f7a31e4ee7f33cf1ae896d586c4f248b5f27">
-        <dex dex="F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\pre-dexed\debug\appblade-framework-28a91d25bcd5edc107723ff756059733cc10fb38.jar" />
+        <dex dex="F:\MADWP\TUDMAndroid\build\intermediates\pre-dexed\debug\appblade-framework-0fd5e4149d6023ffc4f563dc20360514b5b9041f.jar" />
     </item>
     <item
-        jar="F:\MADWP\ccm-android2\CCMAndroid\libs\gson-2.2.4.jar"
+        jar="F:\MADWP\TUDMAndroid\libs\gson-2.2.4.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
-        <dex dex="F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\pre-dexed\debug\gson-2.2.4-ce9cd212bdcc4f9c0109d78850c55733293a1bec.jar" />
+        <dex dex="F:\MADWP\TUDMAndroid\build\intermediates\pre-dexed\debug\gson-2.2.4-9d020207ba2c665a24cf16662a83808d4caa527f.jar" />
+    </item>
+    <item
+        jar="F:\MADWP\TUDMAndroid\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="F:\MADWP\TUDMAndroid\build\intermediates\pre-dexed\debug\android-support-v4-17035add97979f42d06e588965fdd66b2d746892.jar" />
+    </item>
+    <item
+        jar="F:\MADWP\TUDMAndroid\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="F:\MADWP\TUDMAndroid\build\intermediates\pre-dexed\debug\gson-2.2.4-9d020207ba2c665a24cf16662a83808d4caa527f.jar" />
     </item>
 
 </items>

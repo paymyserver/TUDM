@@ -1,0 +1,29 @@
+-keep class com.turnupdmood.tudm.TUDMApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.turnupdmood.tudm.TUDMLogin { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMPlayer { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMSettingActivity { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMHelp { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMForgotPwd { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMPolicyTerms { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMDeviceList { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMSongRemoval { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMPlayListManager { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMManageMessage { <init>(); }
+-keep class com.android.tudm.service.TUDMService { <init>(); }
+-keep class com.android.tudm.service.TUDMCachingService { <init>(); }
+-keep class com.android.tudm.receiver.TUDMReceiver { <init>(); }
+-keep class com.android.tudm.receiver.TUDMCallReceiver { <init>(); }
+-keep class com.turnupdmood.tudm.PlayListActivity { <init>(); }
+-keep class com.turnupdmood.tudm.Devotional { <init>(); }
+-keep class com.turnupdmood.tudm.Chill { <init>(); }
+-keep class com.turnupdmood.tudm.TUDMUserPlaylist { <init>(); }
+-keep class com.turnupdmood.tudm.Register_User { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

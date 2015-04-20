@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CCMAndroid.iml" filepath="$PROJECT_DIR$/CCMAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TUDMAndroid.iml" filepath="$PROJECT_DIR$/TUDMAndroid.iml" />
     </modules>
   </component>
 </project>

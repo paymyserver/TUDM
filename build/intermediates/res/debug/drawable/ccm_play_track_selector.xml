@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Disabled State -->
-    <item android:drawable="@drawable/ccm_play_icon_disabled" android:state_enabled="false"/>
+    <item android:drawable="@drawable/ccm_play_icon_disabled" android:state_enabled="false" />
     <!-- Default State -->
-    <item android:drawable="@drawable/ccm_play_icon"/>
+    <item android:drawable="@drawable/ccm_play_icon" />
 
-</selector><!-- From: file:/F:/MADWP/ccm-android2/CCMAndroid/res/drawable/ccm_play_track_selector.xml -->
+</selector><!-- From: file:/F:/MADWP/TUDMAndroid/res/drawable/ccm_play_track_selector.xml -->

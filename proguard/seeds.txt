@@ -1,0 +1,1353 @@
+android.support.v4.app.ActionBarDrawerToggle: void onDrawerOpened(android.view.View)
+android.support.v4.app.ActionBarDrawerToggle: void onDrawerClosed(android.view.View)
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.DialogFragment
+android.support.v4.app.Fragment: void registerForContextMenu(android.view.View)
+android.support.v4.app.Fragment: void unregisterForContextMenu(android.view.View)
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context)
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.ListFragment
+android.support.v4.content.FileProvider
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerAdapter: void startUpdate(android.view.View)
+android.support.v4.view.PagerAdapter: void finishUpdate(android.view.View)
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context)
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTabStrip$1: void onClick(android.view.View)
+android.support.v4.view.PagerTabStrip$2: void onClick(android.view.View)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewCompat: void postInvalidateOnAnimation(android.view.View)
+android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postInvalidateOnAnimation(android.view.View)
+android.support.v4.view.ViewCompat$JBViewCompatImpl: void postInvalidateOnAnimation(android.view.View)
+android.support.v4.view.ViewCompat$ViewCompatImpl: void postInvalidateOnAnimation(android.view.View)
+android.support.v4.view.ViewCompatJB: void postInvalidateOnAnimation(android.view.View)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void removeView(android.view.View)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setSource(android.view.View)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void addChild(android.view.View)
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: void setParent(android.view.View)
+android.support.v4.view.accessibility.AccessibilityRecordCompat: void setSource(android.view.View)
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout: void openDrawer(android.view.View)
+android.support.v4.widget.DrawerLayout: void closeDrawer(android.view.View)
+android.support.v4.widget.DrawerLayout$DrawerListener: void onDrawerOpened(android.view.View)
+android.support.v4.widget.DrawerLayout$DrawerListener: void onDrawerClosed(android.view.View)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout$SimpleDrawerListener: void onDrawerOpened(android.view.View)
+android.support.v4.widget.DrawerLayout$SimpleDrawerListener: void onDrawerClosed(android.view.View)
+android.support.v4.widget.SearchViewCompatIcs$MySearchView
+android.support.v4.widget.SearchViewCompatIcs$MySearchView: SearchViewCompatIcs$MySearchView(android.content.Context)
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$PanelSlideListener: void onPanelOpened(android.view.View)
+android.support.v4.widget.SlidingPaneLayout$PanelSlideListener: void onPanelClosed(android.view.View)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout$SimplePanelSlideListener: void onPanelOpened(android.view.View)
+android.support.v4.widget.SlidingPaneLayout$SimplePanelSlideListener: void onPanelClosed(android.view.View)
+com.android.cloudcovermusic.receiver.CCMCallReceiver
+com.android.cloudcovermusic.receiver.CCMCallReceiver: CCMCallReceiver()
+com.android.cloudcovermusic.receiver.CCMReceiver
+com.android.cloudcovermusic.receiver.CCMReceiver: CCMReceiver()
+com.android.cloudcovermusic.service.CCMCachingService
+com.android.cloudcovermusic.service.CCMCachingService: CCMCachingService()
+com.android.cloudcovermusic.service.CCMService
+com.android.cloudcovermusic.service.CCMService: CCMService()
+com.android.cloudcovermusic.service.CCMService$State: com.android.cloudcovermusic.service.CCMService$State[] values()
+com.android.cloudcovermusic.service.CCMService$State: com.android.cloudcovermusic.service.CCMService$State valueOf(java.lang.String)
+com.appblade.framework.AppBlade
+com.appblade.framework.AppBlade: java.lang.String LogTag
+com.appblade.framework.AppBlade: boolean makeToast
+com.appblade.framework.AppBlade: com.appblade.framework.AppInfo appInfo
+com.appblade.framework.AppBlade: boolean canWriteToDisk
+com.appblade.framework.AppBlade: java.lang.String rootDir
+com.appblade.framework.AppBlade: java.lang.String exceptionsDir
+com.appblade.framework.AppBlade: java.lang.String feedbackDir
+com.appblade.framework.AppBlade: java.lang.String sessionsDir
+com.appblade.framework.AppBlade: java.lang.String customParamsDir
+com.appblade.framework.AppBlade: com.appblade.framework.stats.SessionData currentSession
+com.appblade.framework.AppBlade: com.appblade.framework.stats.AppBladeSessionLoggingService sessionLoggingService
+com.appblade.framework.AppBlade: java.lang.String AppBladeExceptionsFolder
+com.appblade.framework.AppBlade: java.lang.String AppBladeFeedbackFolder
+com.appblade.framework.AppBlade: java.lang.String AppBladeSessionsFolder
+com.appblade.framework.AppBlade: java.lang.String AppBladeCustomParamsFolder
+com.appblade.framework.AppBlade: java.lang.String BOUNDARY_FORMAT
+com.appblade.framework.AppBlade: int dynamicBoundaryLength
+com.appblade.framework.AppBlade: void <clinit>()
+com.appblade.framework.AppBlade: AppBlade()
+com.appblade.framework.AppBlade: void register(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.appblade.framework.AppBlade: void register(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.appblade.framework.AppBlade: boolean isRegistered()
+com.appblade.framework.AppBlade: void hardCheckIsRegistered()
+com.appblade.framework.AppBlade: void authorize(android.app.Activity)
+com.appblade.framework.AppBlade: void authorize(android.app.Activity,boolean)
+com.appblade.framework.AppBlade: void authorize(android.app.Activity,boolean,boolean)
+com.appblade.framework.AppBlade: boolean isAuthorized(android.app.Activity)
+com.appblade.framework.AppBlade: boolean isAuthorized(android.content.Context)
+com.appblade.framework.AppBlade: void checkForUpdates(android.app.Activity)
+com.appblade.framework.AppBlade: void checkForUpdates(android.app.Activity,boolean)
+com.appblade.framework.AppBlade: void checkForUpdatesIgnoreTimeout(android.app.Activity,boolean)
+com.appblade.framework.AppBlade: void useSessionLoggingService(android.content.Context)
+com.appblade.framework.AppBlade: boolean bindToSessionService(android.app.Activity)
+com.appblade.framework.AppBlade: boolean unbindFromSessionService(android.app.Activity)
+com.appblade.framework.AppBlade: boolean startSession(android.content.Context)
+com.appblade.framework.AppBlade: boolean startSession(android.content.Context,boolean)
+com.appblade.framework.AppBlade: boolean endSession(android.content.Context)
+com.appblade.framework.AppBlade: boolean endSession(android.content.Context,boolean)
+com.appblade.framework.AppBlade: void doFeedback(android.content.Context)
+com.appblade.framework.AppBlade: void doFeedbackWithScreenshot(android.content.Context,android.app.Activity)
+com.appblade.framework.AppBlade: void doFeedbackWithScreenshot(android.content.Context,android.view.View)
+com.appblade.framework.AppBlade: void doFeedbackWithScreenshot(android.content.Context,android.graphics.Bitmap)
+com.appblade.framework.AppBlade: void doFeedbackWithScreenshot(android.content.Context,android.graphics.Bitmap,java.lang.String)
+com.appblade.framework.AppBlade: void sendFeedbackData(android.content.Context,java.lang.String,android.graphics.Bitmap)
+com.appblade.framework.AppBlade: android.graphics.Bitmap getBitmapFromView(android.view.View)
+com.appblade.framework.AppBlade: void registerExceptionHandler()
+com.appblade.framework.AppBlade: void unregisterExceptionHandler()
+com.appblade.framework.AppBlade: void notify(java.lang.Throwable)
+com.appblade.framework.AppBlade: void setCustomParameter(android.content.Context,java.lang.String,java.lang.Object)
+com.appblade.framework.AppBlade: void setCustomParameterThrowy(android.content.Context,java.lang.String,java.lang.Object)
+com.appblade.framework.AppBlade: void clearCustomParameters(android.content.Context)
+com.appblade.framework.AppBlade: boolean hasPackageInfo()
+com.appblade.framework.AppBlade: android.content.pm.PackageInfo getPackageInfo()
+com.appblade.framework.AppBlade: void setDeviceId(java.lang.String)
+com.appblade.framework.AppBlade: java.lang.String genDynamicBoundary()
+com.appblade.framework.AppBlade: java.lang.String makeDirFromRoot(java.lang.String,android.content.Context)
+com.appblade.framework.AppBlade$1
+com.appblade.framework.AppBlade$1: android.app.Activity val$activity
+com.appblade.framework.AppBlade$1: boolean val$updateIfAvailable
+com.appblade.framework.AppBlade$1: AppBlade$1(android.app.Activity,boolean)
+com.appblade.framework.AppBlade$1: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.AppBlade$2
+com.appblade.framework.AppBlade$2: android.app.Activity val$activity
+com.appblade.framework.AppBlade$2: AppBlade$2(android.app.Activity)
+com.appblade.framework.AppBlade$2: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.AppBlade$3
+com.appblade.framework.AppBlade$3: android.app.Activity val$activity
+com.appblade.framework.AppBlade$3: AppBlade$3(android.app.Activity)
+com.appblade.framework.AppBlade$3: void onCancel(android.content.DialogInterface)
+com.appblade.framework.AppBlade$4
+com.appblade.framework.AppBlade$4: android.content.Context val$context
+com.appblade.framework.AppBlade$4: AppBlade$4(android.content.Context)
+com.appblade.framework.AppBlade$4: void OnFeedbackDataAcquired(com.appblade.framework.feedback.FeedbackData)
+com.appblade.framework.AppBladeExceptionHandler
+com.appblade.framework.AppBladeExceptionHandler: java.lang.Thread$UncaughtExceptionHandler defaultHandler
+com.appblade.framework.AppBladeExceptionHandler: AppBladeExceptionHandler(java.lang.Thread$UncaughtExceptionHandler)
+com.appblade.framework.AppBladeExceptionHandler: void uncaughtException(java.lang.Thread,java.lang.Throwable)
+com.appblade.framework.AppInfo
+com.appblade.framework.AppInfo: java.lang.String DefaultUDID
+com.appblade.framework.AppInfo: java.lang.String DefaultAppBladeHost
+com.appblade.framework.AppInfo: java.lang.String DefaultServiceScheme
+com.appblade.framework.AppInfo: java.lang.String Token
+com.appblade.framework.AppInfo: java.lang.String Secret
+com.appblade.framework.AppInfo: java.lang.String AppId
+com.appblade.framework.AppInfo: java.lang.String Issuance
+com.appblade.framework.AppInfo: java.lang.String Ext
+com.appblade.framework.AppInfo: java.lang.String CurrentEndpoint
+com.appblade.framework.AppInfo: java.lang.String CurrentEndpointNoPort
+com.appblade.framework.AppInfo: java.lang.String CurrentServiceScheme
+com.appblade.framework.AppInfo: android.content.pm.PackageInfo PackageInfo
+com.appblade.framework.AppInfo: java.lang.String systemInfo
+com.appblade.framework.AppInfo: java.lang.String storedANDROID_ID
+com.appblade.framework.AppInfo: void <clinit>()
+com.appblade.framework.AppInfo: AppInfo()
+com.appblade.framework.AppInfo: java.lang.String getSystemInfo()
+com.appblade.framework.AppInfo: void initSystemInfo()
+com.appblade.framework.AppInfo: boolean isSigned(android.content.pm.PackageInfo)
+com.appblade.framework.AppInfo: boolean isInEmulator(android.content.Context)
+com.appblade.framework.AppInfo: boolean isValid()
+com.appblade.framework.WebServiceHelper
+com.appblade.framework.WebServiceHelper: int NonceRandomStringLength
+com.appblade.framework.WebServiceHelper: java.lang.String ServicePathCrashReportsFormat
+com.appblade.framework.WebServiceHelper: java.lang.String ServicePathFeedbackFormat
+com.appblade.framework.WebServiceHelper: java.lang.String ServicePathSessionFormat
+com.appblade.framework.WebServiceHelper: java.lang.String ServicePathKillSwitchFormat
+com.appblade.framework.WebServiceHelper: java.lang.String ServicePathUpdateFormat
+com.appblade.framework.WebServiceHelper: java.lang.String ServicePathOauthTokens
+com.appblade.framework.WebServiceHelper: WebServiceHelper()
+com.appblade.framework.WebServiceHelper: java.lang.String getHMACAuthHeader(com.appblade.framework.AppInfo,java.lang.String,java.lang.String,com.appblade.framework.WebServiceHelper$HttpMethod)
+com.appblade.framework.WebServiceHelper: void addCommonHeaders(org.apache.http.HttpRequest)
+com.appblade.framework.WebServiceHelper: java.lang.String getRandomNonceString(int)
+com.appblade.framework.WebServiceHelper: java.lang.String getUrl(java.lang.String)
+com.appblade.framework.WebServiceHelper: java.lang.String getCurrentPortAsString()
+com.appblade.framework.WebServiceHelper: int getCurrentPort()
+com.appblade.framework.WebServiceHelper$HttpMethod
+com.appblade.framework.WebServiceHelper$HttpMethod: com.appblade.framework.WebServiceHelper$HttpMethod POST
+com.appblade.framework.WebServiceHelper$HttpMethod: com.appblade.framework.WebServiceHelper$HttpMethod GET
+com.appblade.framework.WebServiceHelper$HttpMethod: com.appblade.framework.WebServiceHelper$HttpMethod PUT
+com.appblade.framework.WebServiceHelper$HttpMethod: com.appblade.framework.WebServiceHelper$HttpMethod[] ENUM$VALUES
+com.appblade.framework.WebServiceHelper$HttpMethod: void <clinit>()
+com.appblade.framework.WebServiceHelper$HttpMethod: WebServiceHelper$HttpMethod(java.lang.String,int)
+com.appblade.framework.WebServiceHelper$HttpMethod: com.appblade.framework.WebServiceHelper$HttpMethod[] values()
+com.appblade.framework.WebServiceHelper$HttpMethod: com.appblade.framework.WebServiceHelper$HttpMethod valueOf(java.lang.String)
+com.appblade.framework.authenticate.AuthHelper
+com.appblade.framework.authenticate.AuthHelper: AuthHelper()
+com.appblade.framework.authenticate.AuthHelper: boolean isAuthorized(android.app.Activity)
+com.appblade.framework.authenticate.AuthHelper: void checkAuthorization(android.app.Activity,boolean)
+com.appblade.framework.authenticate.AuthHelper: void checkAuthorization(android.app.Activity,boolean,boolean)
+com.appblade.framework.authenticate.AuthHelper: void authorize(android.app.Activity)
+com.appblade.framework.authenticate.AuthHelper$1
+com.appblade.framework.authenticate.AuthHelper$1: android.app.Activity val$activity
+com.appblade.framework.authenticate.AuthHelper$1: AuthHelper$1(android.app.Activity)
+com.appblade.framework.authenticate.AuthHelper$1: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.authenticate.AuthHelper$2
+com.appblade.framework.authenticate.AuthHelper$2: android.app.Activity val$activity
+com.appblade.framework.authenticate.AuthHelper$2: AuthHelper$2(android.app.Activity)
+com.appblade.framework.authenticate.AuthHelper$2: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.authenticate.AuthHelper$3
+com.appblade.framework.authenticate.AuthHelper$3: android.app.Activity val$activity
+com.appblade.framework.authenticate.AuthHelper$3: AuthHelper$3(android.app.Activity)
+com.appblade.framework.authenticate.AuthHelper$3: void onCancel(android.content.DialogInterface)
+com.appblade.framework.authenticate.AuthJavascriptInterface
+com.appblade.framework.authenticate.AuthJavascriptInterface: android.app.Activity mActivity
+com.appblade.framework.authenticate.AuthJavascriptInterface: AuthJavascriptInterface(android.app.Activity)
+com.appblade.framework.authenticate.AuthJavascriptInterface: void notifyAuthCode(java.lang.String)
+com.appblade.framework.authenticate.AuthJavascriptInterface$1
+com.appblade.framework.authenticate.AuthJavascriptInterface$1: com.appblade.framework.authenticate.AuthJavascriptInterface this$0
+com.appblade.framework.authenticate.AuthJavascriptInterface$1: java.lang.String val$code
+com.appblade.framework.authenticate.AuthJavascriptInterface$1: AuthJavascriptInterface$1(com.appblade.framework.authenticate.AuthJavascriptInterface,java.lang.String)
+com.appblade.framework.authenticate.AuthJavascriptInterface$1: void run()
+com.appblade.framework.authenticate.AuthJavascriptInterface$1: com.appblade.framework.authenticate.AuthJavascriptInterface access$0(com.appblade.framework.authenticate.AuthJavascriptInterface$1)
+com.appblade.framework.authenticate.AuthJavascriptInterface$1$1
+com.appblade.framework.authenticate.AuthJavascriptInterface$1$1: com.appblade.framework.authenticate.AuthJavascriptInterface$1 this$1
+com.appblade.framework.authenticate.AuthJavascriptInterface$1$1: AuthJavascriptInterface$1$1(com.appblade.framework.authenticate.AuthJavascriptInterface$1)
+com.appblade.framework.authenticate.AuthJavascriptInterface$1$1: void onPostExecute()
+com.appblade.framework.authenticate.AuthTokensDownloadTask
+com.appblade.framework.authenticate.AuthTokensDownloadTask: android.app.ProgressDialog progress
+com.appblade.framework.authenticate.AuthTokensDownloadTask: android.content.Context context
+com.appblade.framework.authenticate.AuthTokensDownloadTask: com.appblade.framework.authenticate.AuthTokensDownloadTask$OnPostExecuteListener onPostExecuteListener
+com.appblade.framework.authenticate.AuthTokensDownloadTask: AuthTokensDownloadTask(android.content.Context)
+com.appblade.framework.authenticate.AuthTokensDownloadTask: void setOnPostExecuteListener(com.appblade.framework.authenticate.AuthTokensDownloadTask$OnPostExecuteListener)
+com.appblade.framework.authenticate.AuthTokensDownloadTask: void onPreExecute()
+com.appblade.framework.authenticate.AuthTokensDownloadTask: java.lang.Void doInBackground(java.lang.String[])
+com.appblade.framework.authenticate.AuthTokensDownloadTask: void handleResponse(org.apache.http.HttpResponse)
+com.appblade.framework.authenticate.AuthTokensDownloadTask: void onCancelled()
+com.appblade.framework.authenticate.AuthTokensDownloadTask: void onPostExecute(java.lang.Void)
+com.appblade.framework.authenticate.AuthTokensDownloadTask: void onPostExecute(java.lang.Object)
+com.appblade.framework.authenticate.AuthTokensDownloadTask: java.lang.Object doInBackground(java.lang.Object[])
+com.appblade.framework.authenticate.AuthTokensDownloadTask$OnPostExecuteListener
+com.appblade.framework.authenticate.AuthTokensDownloadTask$OnPostExecuteListener: void onPostExecute()
+com.appblade.framework.authenticate.KillSwitch
+com.appblade.framework.authenticate.KillSwitch: java.lang.String PrefsKey
+com.appblade.framework.authenticate.KillSwitch: java.lang.String PrefsKeyTTL
+com.appblade.framework.authenticate.KillSwitch: java.lang.String PrefsKeyTTLUpdated
+com.appblade.framework.authenticate.KillSwitch: java.lang.String DefaultAccessRevokedMessage
+com.appblade.framework.authenticate.KillSwitch: int ttl
+com.appblade.framework.authenticate.KillSwitch: long ttlLastUpdated
+com.appblade.framework.authenticate.KillSwitch: int MillisPerHour
+com.appblade.framework.authenticate.KillSwitch: int MillisPerDay
+com.appblade.framework.authenticate.KillSwitch: boolean inProgress
+com.appblade.framework.authenticate.KillSwitch: void <clinit>()
+com.appblade.framework.authenticate.KillSwitch: KillSwitch()
+com.appblade.framework.authenticate.KillSwitch: void authorize(android.app.Activity)
+com.appblade.framework.authenticate.KillSwitch: void kill(android.app.Activity)
+com.appblade.framework.authenticate.KillSwitch: boolean shouldUpdate()
+com.appblade.framework.authenticate.KillSwitch: void clear(android.app.Activity)
+com.appblade.framework.authenticate.KillSwitch: org.apache.http.HttpResponse getKillSwitchResponse()
+com.appblade.framework.authenticate.KillSwitch: void reloadSharedPrefs(android.app.Activity)
+com.appblade.framework.authenticate.KillSwitch: void access$0(boolean)
+com.appblade.framework.authenticate.KillSwitch: void access$1(int)
+com.appblade.framework.authenticate.KillSwitch: void access$2(long)
+com.appblade.framework.authenticate.KillSwitch: int access$3()
+com.appblade.framework.authenticate.KillSwitch: long access$4()
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: android.app.Activity context
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: android.app.ProgressDialog progress
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: KillSwitch$KillSwitchTask(android.app.Activity)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: void onPreExecute()
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: java.lang.Void doInBackground(java.lang.Void[])
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: void onPostExecute(java.lang.Void)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: void onCancelled()
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: void handleResponse(org.apache.http.HttpResponse)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: java.lang.String getKillSwitchUnauthorizedMessage(org.apache.http.HttpResponse)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: void displayUnauthorizedDialog(java.lang.String)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: void save(int)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: void onPostExecute(java.lang.Object)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask: java.lang.Object doInBackground(java.lang.Object[])
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1: com.appblade.framework.authenticate.KillSwitch$KillSwitchTask this$1
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1: java.lang.String val$message
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1: KillSwitch$KillSwitchTask$1(com.appblade.framework.authenticate.KillSwitch$KillSwitchTask,java.lang.String)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1: void run()
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1: com.appblade.framework.authenticate.KillSwitch$KillSwitchTask access$0(com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1$1
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1$1: com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1 this$2
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1$1: KillSwitch$KillSwitchTask$1$1(com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1$1: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1$2
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1$2: com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1 this$2
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1$2: KillSwitch$KillSwitchTask$1$2(com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1)
+com.appblade.framework.authenticate.KillSwitch$KillSwitchTask$1$2: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.authenticate.RemoteAuthHelper
+com.appblade.framework.authenticate.RemoteAuthHelper: java.lang.String defaultFileName
+com.appblade.framework.authenticate.RemoteAuthHelper: RemoteAuthHelper()
+com.appblade.framework.authenticate.RemoteAuthHelper: java.lang.String getAccessTokenFilename(android.content.Context)
+com.appblade.framework.authenticate.RemoteAuthHelper: void store(android.content.Context,java.lang.String,java.lang.String,java.lang.String,int)
+com.appblade.framework.authenticate.RemoteAuthHelper: void clear(android.content.Context)
+com.appblade.framework.authenticate.RemoteAuthHelper: java.lang.String getAccessToken(android.content.Context)
+com.appblade.framework.authenticate.RemoteAuthorizeActivity
+com.appblade.framework.authenticate.RemoteAuthorizeActivity: java.lang.String EndpointAuthNew
+com.appblade.framework.authenticate.RemoteAuthorizeActivity: android.app.ProgressDialog progress
+com.appblade.framework.authenticate.RemoteAuthorizeActivity: com.appblade.framework.authenticate.AuthJavascriptInterface jsInterface
+com.appblade.framework.authenticate.RemoteAuthorizeActivity: android.webkit.WebView webview
+com.appblade.framework.authenticate.RemoteAuthorizeActivity: RemoteAuthorizeActivity()
+com.appblade.framework.authenticate.RemoteAuthorizeActivity: void onCreate(android.os.Bundle)
+com.appblade.framework.authenticate.RemoteAuthorizeActivity: void initControls()
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$1
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$1: com.appblade.framework.authenticate.RemoteAuthorizeActivity this$0
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$1: RemoteAuthorizeActivity$1(com.appblade.framework.authenticate.RemoteAuthorizeActivity)
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$1: void onProgressChanged(android.webkit.WebView,int)
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$2
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$2: com.appblade.framework.authenticate.RemoteAuthorizeActivity this$0
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$2: RemoteAuthorizeActivity$2(com.appblade.framework.authenticate.RemoteAuthorizeActivity)
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$2: void onLoadResource(android.webkit.WebView,java.lang.String)
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$2: void onPageFinished(android.webkit.WebView,java.lang.String)
+com.appblade.framework.authenticate.RemoteAuthorizeActivity$2: void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap)
+com.appblade.framework.crashreporting.CrashReportData
+com.appblade.framework.crashreporting.CrashReportData: java.lang.Throwable exception
+com.appblade.framework.crashreporting.CrashReportData: CrashReportData(java.lang.Throwable)
+com.appblade.framework.crashreporting.CrashReportHelper
+com.appblade.framework.crashreporting.CrashReportHelper: CrashReportHelper()
+com.appblade.framework.crashreporting.CrashReportHelper: java.lang.Boolean postCrashes(com.appblade.framework.crashreporting.CrashReportData)
+com.appblade.framework.crashreporting.CrashReportHelper: void postExceptionsToServer()
+com.appblade.framework.crashreporting.CrashReportHelper: void writeExceptionToDisk(java.lang.Throwable)
+com.appblade.framework.crashreporting.CrashReportHelper: boolean sendExceptionData(java.io.File)
+com.appblade.framework.crashreporting.CrashReportHelper: org.apache.http.entity.mime.MultipartEntity getPostCrashReportBody(java.lang.String,org.json.JSONObject,java.lang.String)
+com.appblade.framework.crashreporting.CrashReportHelper: java.lang.String newCrashFileName()
+com.appblade.framework.crashreporting.PostCrashReportTask
+com.appblade.framework.crashreporting.PostCrashReportTask: android.content.Context context
+com.appblade.framework.crashreporting.PostCrashReportTask: android.app.ProgressDialog progress
+com.appblade.framework.crashreporting.PostCrashReportTask: java.lang.Boolean success
+com.appblade.framework.crashreporting.PostCrashReportTask: java.lang.String SUCCESS_MESSAGE
+com.appblade.framework.crashreporting.PostCrashReportTask: java.lang.String FAIL_MESSAGE
+com.appblade.framework.crashreporting.PostCrashReportTask: PostCrashReportTask(android.content.Context)
+com.appblade.framework.crashreporting.PostCrashReportTask: java.lang.Void doInBackground(com.appblade.framework.crashreporting.CrashReportData[])
+com.appblade.framework.crashreporting.PostCrashReportTask: void onPostExecute(java.lang.Void)
+com.appblade.framework.crashreporting.PostCrashReportTask: void onPostExecute(java.lang.Object)
+com.appblade.framework.crashreporting.PostCrashReportTask: java.lang.Object doInBackground(java.lang.Object[])
+com.appblade.framework.customparams.CustomParamData
+com.appblade.framework.customparams.CustomParamData: CustomParamData()
+com.appblade.framework.customparams.CustomParamData: CustomParamData(org.json.JSONObject)
+com.appblade.framework.customparams.CustomParamData: CustomParamData(android.content.Context)
+com.appblade.framework.customparams.CustomParamData: void storeCurrentData(android.content.Context)
+com.appblade.framework.customparams.CustomParamData: com.appblade.framework.customparams.CustomParamData refreshFromStoredData()
+com.appblade.framework.customparams.CustomParamDataHelper
+com.appblade.framework.customparams.CustomParamDataHelper: java.lang.String customParamsFileName
+com.appblade.framework.customparams.CustomParamDataHelper: java.lang.String customParamsIndexMIMEType
+com.appblade.framework.customparams.CustomParamDataHelper: void <clinit>()
+com.appblade.framework.customparams.CustomParamDataHelper: CustomParamDataHelper()
+com.appblade.framework.customparams.CustomParamDataHelper: java.lang.String jsonFileURI()
+com.appblade.framework.customparams.CustomParamDataHelper: com.appblade.framework.customparams.CustomParamData getCurrentCustomParams()
+com.appblade.framework.customparams.CustomParamDataHelper: org.json.JSONObject getCustomParamsAsJSON(java.lang.String)
+com.appblade.framework.customparams.CustomParamDataHelper: org.json.JSONObject getCustomParamsAsJSON()
+com.appblade.framework.customparams.CustomParamDataHelper: void storeCurrentCustomParams(android.content.Context,com.appblade.framework.customparams.CustomParamData)
+com.appblade.framework.feedback.FeedbackData
+com.appblade.framework.feedback.FeedbackData: java.lang.String FileName
+com.appblade.framework.feedback.FeedbackData: java.lang.String Notes
+com.appblade.framework.feedback.FeedbackData: android.graphics.Bitmap Screenshot
+com.appblade.framework.feedback.FeedbackData: java.lang.String ScreenshotName
+com.appblade.framework.feedback.FeedbackData: java.lang.String ScreenshotFileLocation
+com.appblade.framework.feedback.FeedbackData: boolean sendScreenshotConfirmed
+com.appblade.framework.feedback.FeedbackData: FeedbackData()
+com.appblade.framework.feedback.FeedbackData: void setPersistentScreenshot(android.graphics.Bitmap)
+com.appblade.framework.feedback.FeedbackData: android.graphics.Bitmap getScreenshot()
+com.appblade.framework.feedback.FeedbackData: void clearData()
+com.appblade.framework.feedback.FeedbackHelper
+com.appblade.framework.feedback.FeedbackHelper: FeedbackHelper()
+com.appblade.framework.feedback.FeedbackHelper: boolean postFeedback(com.appblade.framework.feedback.FeedbackData)
+com.appblade.framework.feedback.FeedbackHelper: boolean postFeedbackWithCustomParams(com.appblade.framework.feedback.FeedbackData,com.appblade.framework.customparams.CustomParamData)
+com.appblade.framework.feedback.FeedbackHelper: void getFeedbackData(android.content.Context,com.appblade.framework.feedback.FeedbackData,com.appblade.framework.feedback.OnFeedbackDataAcquiredListener)
+com.appblade.framework.feedback.FeedbackHelper: org.apache.http.entity.mime.MultipartEntity getPostFeedbackBody(com.appblade.framework.feedback.FeedbackData,com.appblade.framework.customparams.CustomParamData,java.lang.String)
+com.appblade.framework.feedback.FeedbackHelper: byte[] getBytesFromBitmap(android.graphics.Bitmap)
+com.appblade.framework.feedback.FeedbackHelper: java.lang.String formatNewScreenshotFileName()
+com.appblade.framework.feedback.FeedbackHelper: java.lang.String formatNewScreenshotFileLocation()
+com.appblade.framework.feedback.FeedbackHelper: java.lang.String getLogData()
+com.appblade.framework.feedback.FeedbackHelper$1
+com.appblade.framework.feedback.FeedbackHelper$1: com.appblade.framework.feedback.FeedbackData val$fData
+com.appblade.framework.feedback.FeedbackHelper$1: android.widget.EditText val$editText
+com.appblade.framework.feedback.FeedbackHelper$1: android.widget.CheckBox val$screenshotCheckBox
+com.appblade.framework.feedback.FeedbackHelper$1: com.appblade.framework.feedback.OnFeedbackDataAcquiredListener val$listener
+com.appblade.framework.feedback.FeedbackHelper$1: FeedbackHelper$1(com.appblade.framework.feedback.FeedbackData,android.widget.EditText,android.widget.CheckBox,com.appblade.framework.feedback.OnFeedbackDataAcquiredListener)
+com.appblade.framework.feedback.FeedbackHelper$1: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.feedback.FeedbackHelper$2
+com.appblade.framework.feedback.FeedbackHelper$2: com.appblade.framework.feedback.FeedbackData val$fData
+com.appblade.framework.feedback.FeedbackHelper$2: FeedbackHelper$2(com.appblade.framework.feedback.FeedbackData)
+com.appblade.framework.feedback.FeedbackHelper$2: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.feedback.OnFeedbackDataAcquiredListener
+com.appblade.framework.feedback.OnFeedbackDataAcquiredListener: void OnFeedbackDataAcquired(com.appblade.framework.feedback.FeedbackData)
+com.appblade.framework.feedback.PostFeedbackTask
+com.appblade.framework.feedback.PostFeedbackTask: android.content.Context context
+com.appblade.framework.feedback.PostFeedbackTask: android.app.ProgressDialog progress
+com.appblade.framework.feedback.PostFeedbackTask: java.lang.Boolean success
+com.appblade.framework.feedback.PostFeedbackTask: java.lang.String SUCCESS_MESSAGE
+com.appblade.framework.feedback.PostFeedbackTask: java.lang.String FAIL_MESSAGE
+com.appblade.framework.feedback.PostFeedbackTask: PostFeedbackTask(android.content.Context)
+com.appblade.framework.feedback.PostFeedbackTask: java.lang.Boolean doInBackground(com.appblade.framework.feedback.FeedbackData[])
+com.appblade.framework.feedback.PostFeedbackTask: void onPostExecute(java.lang.Boolean)
+com.appblade.framework.feedback.PostFeedbackTask: void onPostExecute(java.lang.Object)
+com.appblade.framework.feedback.PostFeedbackTask: java.lang.Object doInBackground(java.lang.Object[])
+com.appblade.framework.stats.AppBladeSessionActivity
+com.appblade.framework.stats.AppBladeSessionActivity: AppBladeSessionActivity()
+com.appblade.framework.stats.AppBladeSessionActivity: void onResume()
+com.appblade.framework.stats.AppBladeSessionActivity: void onStop()
+com.appblade.framework.stats.AppBladeSessionLoggingService
+com.appblade.framework.stats.AppBladeSessionLoggingService: android.content.Context mContext
+com.appblade.framework.stats.AppBladeSessionLoggingService: com.appblade.framework.stats.AppBladeSessionServiceConnection appbladeSessionServiceConnection
+com.appblade.framework.stats.AppBladeSessionLoggingService: AppBladeSessionLoggingService()
+com.appblade.framework.stats.AppBladeSessionLoggingService: AppBladeSessionLoggingService(android.content.Context)
+com.appblade.framework.stats.AppBladeSessionLoggingService: void onCreate()
+com.appblade.framework.stats.AppBladeSessionLoggingService: void onStart(android.content.Intent,int)
+com.appblade.framework.stats.AppBladeSessionLoggingService: void onDestroy()
+com.appblade.framework.stats.AppBladeSessionLoggingService: android.os.IBinder onBind(android.content.Intent)
+com.appblade.framework.stats.AppBladeSessionLoggingService: boolean onUnbind(android.content.Intent)
+com.appblade.framework.stats.AppBladeSessionServiceConnection
+com.appblade.framework.stats.AppBladeSessionServiceConnection: AppBladeSessionServiceConnection()
+com.appblade.framework.stats.AppBladeSessionServiceConnection: void onServiceConnected(android.content.ComponentName,android.os.IBinder)
+com.appblade.framework.stats.AppBladeSessionServiceConnection: void onServiceDisconnected(android.content.ComponentName)
+com.appblade.framework.stats.OnSessionDataAcquiredListener
+com.appblade.framework.stats.OnSessionDataAcquiredListener: void OnSessionDataAcquired(java.util.List)
+com.appblade.framework.stats.PostSessionTask
+com.appblade.framework.stats.PostSessionTask: android.content.Context context
+com.appblade.framework.stats.PostSessionTask: java.util.List data
+com.appblade.framework.stats.PostSessionTask: java.lang.Boolean success
+com.appblade.framework.stats.PostSessionTask: int responseCode
+com.appblade.framework.stats.PostSessionTask: java.lang.String SUCCESS_MESSAGE
+com.appblade.framework.stats.PostSessionTask: java.lang.String FAIL_MESSAGE
+com.appblade.framework.stats.PostSessionTask: PostSessionTask(android.content.Context)
+com.appblade.framework.stats.PostSessionTask: java.lang.Void doInBackground(java.util.List[])
+com.appblade.framework.stats.PostSessionTask: void onPostExecute(java.lang.Void)
+com.appblade.framework.stats.PostSessionTask: void onPostExecute(java.lang.Object)
+com.appblade.framework.stats.PostSessionTask: java.lang.Object doInBackground(java.lang.Object[])
+com.appblade.framework.stats.SessionData
+com.appblade.framework.stats.SessionData: java.lang.String sessionBeganKey
+com.appblade.framework.stats.SessionData: java.lang.String sessionEndedKey
+com.appblade.framework.stats.SessionData: java.lang.String sessionCustomParamsKey
+com.appblade.framework.stats.SessionData: java.lang.String storageDividerKey
+com.appblade.framework.stats.SessionData: java.util.Date began
+com.appblade.framework.stats.SessionData: java.util.Date ended
+com.appblade.framework.stats.SessionData: org.json.JSONObject customParams
+com.appblade.framework.stats.SessionData: void <clinit>()
+com.appblade.framework.stats.SessionData: SessionData()
+com.appblade.framework.stats.SessionData: SessionData(java.util.Date,java.util.Date,org.json.JSONObject)
+com.appblade.framework.stats.SessionData: SessionData(java.lang.String)
+com.appblade.framework.stats.SessionData: java.lang.String sessionAsStoredString()
+com.appblade.framework.stats.SessionData: org.json.JSONObject formattedSessionAsJSON()
+com.appblade.framework.stats.SessionData: int compare(java.lang.Object,java.lang.Object)
+com.appblade.framework.stats.SessionHelper
+com.appblade.framework.stats.SessionHelper: java.lang.String sessionsIndexFileName
+com.appblade.framework.stats.SessionHelper: java.lang.String sessionsIndexMIMEType
+com.appblade.framework.stats.SessionHelper: boolean SUCCESS
+com.appblade.framework.stats.SessionHelper: boolean FAILURE
+com.appblade.framework.stats.SessionHelper: void <clinit>()
+com.appblade.framework.stats.SessionHelper: SessionHelper()
+com.appblade.framework.stats.SessionHelper: boolean startSession(android.content.Context)
+com.appblade.framework.stats.SessionHelper: boolean endSession(android.content.Context)
+com.appblade.framework.stats.SessionHelper: boolean bindToSessionService(android.app.Activity)
+com.appblade.framework.stats.SessionHelper: boolean unbindFromSessionService(android.app.Activity)
+com.appblade.framework.stats.SessionHelper: int postSession(com.appblade.framework.stats.SessionData)
+com.appblade.framework.stats.SessionHelper: int postSessions(java.util.List)
+com.appblade.framework.stats.SessionHelper: org.apache.http.entity.mime.MultipartEntity getPostSessionBody(java.util.List,java.lang.String)
+com.appblade.framework.stats.SessionHelper: void postExistingSessions(android.content.Context)
+com.appblade.framework.stats.SessionHelper: void getSessionDataWithListener(android.content.Context,com.appblade.framework.stats.OnSessionDataAcquiredListener)
+com.appblade.framework.stats.SessionHelper: java.lang.String formattedSessionsBodyFromList(java.util.List)
+com.appblade.framework.stats.SessionHelper: java.lang.String sessionsIndexFileURI()
+com.appblade.framework.stats.SessionHelper: com.appblade.framework.stats.SessionData createPersistentSession(android.content.Context)
+com.appblade.framework.stats.SessionHelper: void insertSessionData(android.content.Context,com.appblade.framework.stats.SessionData)
+com.appblade.framework.stats.SessionHelper: void removeSession(android.content.Context,com.appblade.framework.stats.SessionData)
+com.appblade.framework.stats.SessionHelper: void removeSessionsEndedBefore(android.content.Context,java.util.Date)
+com.appblade.framework.stats.SessionHelper: java.util.List readData(android.content.Context)
+com.appblade.framework.stats.SessionHelper: void updateFile(android.content.Context,java.lang.String,java.util.List)
+com.appblade.framework.stats.SessionHelper$1
+com.appblade.framework.stats.SessionHelper$1: android.content.Context val$context
+com.appblade.framework.stats.SessionHelper$1: SessionHelper$1(android.content.Context)
+com.appblade.framework.stats.SessionHelper$1: void OnSessionDataAcquired(java.util.List)
+com.appblade.framework.stats.SessionHelper$2
+com.appblade.framework.stats.SessionHelper$2: com.appblade.framework.stats.SessionData val$data
+com.appblade.framework.stats.SessionHelper$2: android.content.Context val$context
+com.appblade.framework.stats.SessionHelper$2: SessionHelper$2(com.appblade.framework.stats.SessionData,android.content.Context)
+com.appblade.framework.stats.SessionHelper$2: void OnSessionDataAcquired(java.util.List)
+com.appblade.framework.stats.SessionHelper$3
+com.appblade.framework.stats.SessionHelper$3: com.appblade.framework.stats.SessionData val$data
+com.appblade.framework.stats.SessionHelper$3: android.content.Context val$context
+com.appblade.framework.stats.SessionHelper$3: SessionHelper$3(com.appblade.framework.stats.SessionData,android.content.Context)
+com.appblade.framework.stats.SessionHelper$3: void OnSessionDataAcquired(java.util.List)
+com.appblade.framework.stats.SessionHelper$4
+com.appblade.framework.stats.SessionHelper$4: java.util.Date val$dateEnded
+com.appblade.framework.stats.SessionHelper$4: android.content.Context val$context
+com.appblade.framework.stats.SessionHelper$4: SessionHelper$4(java.util.Date,android.content.Context)
+com.appblade.framework.stats.SessionHelper$4: void OnSessionDataAcquired(java.util.List)
+com.appblade.framework.updates.DownloadProgressDialog
+com.appblade.framework.updates.DownloadProgressDialog: DownloadProgressDialog(android.app.Activity)
+com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate
+com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate: void showProgress()
+com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate: void updateProgress(int)
+com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate: void dismissProgress()
+com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate: void setOnCancelListener(android.content.DialogInterface$OnCancelListener)
+com.appblade.framework.updates.UpdateTask
+com.appblade.framework.updates.UpdateTask: android.app.Activity taskActivity
+com.appblade.framework.updates.UpdateTask: com.appblade.framework.updates.DownloadProgressDialog progressDialog
+com.appblade.framework.updates.UpdateTask: boolean requireAuthCredentials
+com.appblade.framework.updates.UpdateTask: boolean promptDownloadConfirm
+com.appblade.framework.updates.UpdateTask: UpdateTask(android.app.Activity,boolean,boolean)
+com.appblade.framework.updates.UpdateTask: void showProgress()
+com.appblade.framework.updates.UpdateTask: void updateProgress(int)
+com.appblade.framework.updates.UpdateTask: void dismissProgress()
+com.appblade.framework.updates.UpdateTask: void setOnCancelListener(android.content.DialogInterface$OnCancelListener)
+com.appblade.framework.updates.UpdateTask: void publishProgress(java.lang.Integer[])
+com.appblade.framework.updates.UpdateTask: void onPreExecute()
+com.appblade.framework.updates.UpdateTask: java.lang.Void doInBackground(java.lang.Void[])
+com.appblade.framework.updates.UpdateTask: void handleResponse(org.apache.http.HttpResponse)
+com.appblade.framework.updates.UpdateTask: java.lang.Object doInBackground(java.lang.Object[])
+com.appblade.framework.updates.UpdateTask$1
+com.appblade.framework.updates.UpdateTask$1: com.appblade.framework.updates.UpdateTask this$0
+com.appblade.framework.updates.UpdateTask$1: UpdateTask$1(com.appblade.framework.updates.UpdateTask)
+com.appblade.framework.updates.UpdateTask$1: void run()
+com.appblade.framework.updates.UpdateTask$2
+com.appblade.framework.updates.UpdateTask$2: com.appblade.framework.updates.UpdateTask this$0
+com.appblade.framework.updates.UpdateTask$2: UpdateTask$2(com.appblade.framework.updates.UpdateTask)
+com.appblade.framework.updates.UpdateTask$2: void run()
+com.appblade.framework.updates.UpdatesHelper
+com.appblade.framework.updates.UpdatesHelper: android.app.AlertDialog updateDialog
+com.appblade.framework.updates.UpdatesHelper: com.appblade.framework.updates.UpdateTask updateTask
+com.appblade.framework.updates.UpdatesHelper: java.lang.Thread downloadThread
+com.appblade.framework.updates.UpdatesHelper: int NotificationNewVersionDownloading
+com.appblade.framework.updates.UpdatesHelper: java.lang.String APK_MIMETYPE
+com.appblade.framework.updates.UpdatesHelper: java.lang.String PrefsKey
+com.appblade.framework.updates.UpdatesHelper: java.lang.String PrefsKeyTTL
+com.appblade.framework.updates.UpdatesHelper: java.lang.String PrefsKeyTTLUpdated
+com.appblade.framework.updates.UpdatesHelper: java.lang.Long ttl
+com.appblade.framework.updates.UpdatesHelper: java.lang.Long ttlLastUpdated
+com.appblade.framework.updates.UpdatesHelper: int MillisPerHour
+com.appblade.framework.updates.UpdatesHelper: int MillisPerDay
+com.appblade.framework.updates.UpdatesHelper: boolean isCanceled
+com.appblade.framework.updates.UpdatesHelper: void <clinit>()
+com.appblade.framework.updates.UpdatesHelper: UpdatesHelper()
+com.appblade.framework.updates.UpdatesHelper: void checkForUpdate(android.app.Activity,boolean)
+com.appblade.framework.updates.UpdatesHelper: void checkForUpdateWithTimeout(android.app.Activity,boolean)
+com.appblade.framework.updates.UpdatesHelper: boolean shouldUpdate(android.app.Activity,boolean)
+com.appblade.framework.updates.UpdatesHelper: void checkForAuthenticatedUpdate(android.app.Activity,boolean)
+com.appblade.framework.updates.UpdatesHelper: void checkForAuthenticatedUpdate(android.app.Activity,boolean,boolean)
+com.appblade.framework.updates.UpdatesHelper: void checkAuthorization(android.app.Activity,boolean)
+com.appblade.framework.updates.UpdatesHelper: void checkForAnonymousUpdate(android.app.Activity,boolean)
+com.appblade.framework.updates.UpdatesHelper: void checkForAnonymousUpdate(android.app.Activity,boolean,boolean)
+com.appblade.framework.updates.UpdatesHelper: org.apache.http.HttpResponse getUpdateResponse(boolean)
+com.appblade.framework.updates.UpdatesHelper: void confirmUpdate(android.app.Activity,org.json.JSONObject,com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate)
+com.appblade.framework.updates.UpdatesHelper: void processUpdate(android.app.Activity,org.json.JSONObject,com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate)
+com.appblade.framework.updates.UpdatesHelper: void handleDownloadedFile(android.app.Activity,java.io.File)
+com.appblade.framework.updates.UpdatesHelper: boolean appCanDownload()
+com.appblade.framework.updates.UpdatesHelper: void downloadUpdate(android.app.Activity,org.json.JSONObject,com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate)
+com.appblade.framework.updates.UpdatesHelper: void notifyRetryDownload(android.app.Activity,org.json.JSONObject)
+com.appblade.framework.updates.UpdatesHelper: java.io.File fileFromUpdateJSON(org.json.JSONObject)
+com.appblade.framework.updates.UpdatesHelper: void openWithAlert(android.app.Activity,java.io.File)
+com.appblade.framework.updates.UpdatesHelper: java.io.File getRootDirectory()
+com.appblade.framework.updates.UpdatesHelper: java.io.File downloadedFile()
+com.appblade.framework.updates.UpdatesHelper: void addFileAndNotifyDownloadManager(java.io.File,android.content.Context,java.lang.String,long)
+com.appblade.framework.updates.UpdatesHelper: boolean deleteFileAndNotifyDownloadManager(java.io.File,android.content.Context)
+com.appblade.framework.updates.UpdatesHelper: void deleteCurrentFile(android.content.Context)
+com.appblade.framework.updates.UpdatesHelper: void notifyDownloading(android.content.Context)
+com.appblade.framework.updates.UpdatesHelper: void notifyUpdate(android.content.Context,org.json.JSONObject)
+com.appblade.framework.updates.UpdatesHelper: void saveTtl(long,android.content.Context)
+com.appblade.framework.updates.UpdatesHelper: int loadTtl(android.content.Context)
+com.appblade.framework.updates.UpdatesHelper: int loadTtlLastUpdated(android.content.Context)
+com.appblade.framework.updates.UpdatesHelper: boolean fileFromJsonNotDownloadedYet(org.json.JSONObject)
+com.appblade.framework.updates.UpdatesHelper: void access$0(android.app.AlertDialog)
+com.appblade.framework.updates.UpdatesHelper: android.app.AlertDialog access$1()
+com.appblade.framework.updates.UpdatesHelper: void access$2(boolean)
+com.appblade.framework.updates.UpdatesHelper: com.appblade.framework.updates.UpdateTask access$3()
+com.appblade.framework.updates.UpdatesHelper: void access$4(com.appblade.framework.updates.UpdateTask)
+com.appblade.framework.updates.UpdatesHelper: void access$5(android.content.Context,org.json.JSONObject)
+com.appblade.framework.updates.UpdatesHelper$1
+com.appblade.framework.updates.UpdatesHelper$1: android.app.Activity val$activity
+com.appblade.framework.updates.UpdatesHelper$1: UpdatesHelper$1(android.app.Activity)
+com.appblade.framework.updates.UpdatesHelper$1: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.updates.UpdatesHelper$2
+com.appblade.framework.updates.UpdatesHelper$2: UpdatesHelper$2()
+com.appblade.framework.updates.UpdatesHelper$2: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.updates.UpdatesHelper$3
+com.appblade.framework.updates.UpdatesHelper$3: UpdatesHelper$3()
+com.appblade.framework.updates.UpdatesHelper$3: void onDismiss(android.content.DialogInterface)
+com.appblade.framework.updates.UpdatesHelper$4
+com.appblade.framework.updates.UpdatesHelper$4: android.app.Activity val$activity
+com.appblade.framework.updates.UpdatesHelper$4: org.json.JSONObject val$update
+com.appblade.framework.updates.UpdatesHelper$4: com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate val$delegate
+com.appblade.framework.updates.UpdatesHelper$4: UpdatesHelper$4(android.app.Activity,org.json.JSONObject,com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate)
+com.appblade.framework.updates.UpdatesHelper$4: void run()
+com.appblade.framework.updates.UpdatesHelper$4$1
+com.appblade.framework.updates.UpdatesHelper$4$1: com.appblade.framework.updates.UpdatesHelper$4 this$1
+com.appblade.framework.updates.UpdatesHelper$4$1: android.app.Activity val$activity
+com.appblade.framework.updates.UpdatesHelper$4$1: org.json.JSONObject val$update
+com.appblade.framework.updates.UpdatesHelper$4$1: com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate val$delegate
+com.appblade.framework.updates.UpdatesHelper$4$1: UpdatesHelper$4$1(com.appblade.framework.updates.UpdatesHelper$4,android.app.Activity,org.json.JSONObject,com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate)
+com.appblade.framework.updates.UpdatesHelper$4$1: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.updates.UpdatesHelper$4$1$1
+com.appblade.framework.updates.UpdatesHelper$4$1$1: com.appblade.framework.updates.UpdatesHelper$4$1 this$2
+com.appblade.framework.updates.UpdatesHelper$4$1$1: android.app.Activity val$activity
+com.appblade.framework.updates.UpdatesHelper$4$1$1: org.json.JSONObject val$update
+com.appblade.framework.updates.UpdatesHelper$4$1$1: com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate val$delegate
+com.appblade.framework.updates.UpdatesHelper$4$1$1: UpdatesHelper$4$1$1(com.appblade.framework.updates.UpdatesHelper$4$1,android.app.Activity,org.json.JSONObject,com.appblade.framework.updates.DownloadProgressDialog$DownloadProgressDelegate)
+com.appblade.framework.updates.UpdatesHelper$4$1$1: void run()
+com.appblade.framework.updates.UpdatesHelper$4$2
+com.appblade.framework.updates.UpdatesHelper$4$2: com.appblade.framework.updates.UpdatesHelper$4 this$1
+com.appblade.framework.updates.UpdatesHelper$4$2: UpdatesHelper$4$2(com.appblade.framework.updates.UpdatesHelper$4)
+com.appblade.framework.updates.UpdatesHelper$4$2: void onDismiss(android.content.DialogInterface)
+com.appblade.framework.updates.UpdatesHelper$5
+com.appblade.framework.updates.UpdatesHelper$5: UpdatesHelper$5()
+com.appblade.framework.updates.UpdatesHelper$5: void onCancel(android.content.DialogInterface)
+com.appblade.framework.updates.UpdatesHelper$6
+com.appblade.framework.updates.UpdatesHelper$6: android.app.Activity val$context
+com.appblade.framework.updates.UpdatesHelper$6: org.json.JSONObject val$update
+com.appblade.framework.updates.UpdatesHelper$6: UpdatesHelper$6(android.app.Activity,org.json.JSONObject)
+com.appblade.framework.updates.UpdatesHelper$6: void run()
+com.appblade.framework.updates.UpdatesHelper$6$1
+com.appblade.framework.updates.UpdatesHelper$6$1: com.appblade.framework.updates.UpdatesHelper$6 this$1
+com.appblade.framework.updates.UpdatesHelper$6$1: android.app.Activity val$context
+com.appblade.framework.updates.UpdatesHelper$6$1: UpdatesHelper$6$1(com.appblade.framework.updates.UpdatesHelper$6,android.app.Activity)
+com.appblade.framework.updates.UpdatesHelper$6$1: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.updates.UpdatesHelper$6$2
+com.appblade.framework.updates.UpdatesHelper$6$2: com.appblade.framework.updates.UpdatesHelper$6 this$1
+com.appblade.framework.updates.UpdatesHelper$6$2: android.app.Activity val$context
+com.appblade.framework.updates.UpdatesHelper$6$2: org.json.JSONObject val$update
+com.appblade.framework.updates.UpdatesHelper$6$2: UpdatesHelper$6$2(com.appblade.framework.updates.UpdatesHelper$6,android.app.Activity,org.json.JSONObject)
+com.appblade.framework.updates.UpdatesHelper$6$2: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.updates.UpdatesHelper$6$3
+com.appblade.framework.updates.UpdatesHelper$6$3: com.appblade.framework.updates.UpdatesHelper$6 this$1
+com.appblade.framework.updates.UpdatesHelper$6$3: UpdatesHelper$6$3(com.appblade.framework.updates.UpdatesHelper$6)
+com.appblade.framework.updates.UpdatesHelper$6$3: void onDismiss(android.content.DialogInterface)
+com.appblade.framework.updates.UpdatesHelper$7
+com.appblade.framework.updates.UpdatesHelper$7: android.app.Activity val$activity
+com.appblade.framework.updates.UpdatesHelper$7: java.io.File val$file
+com.appblade.framework.updates.UpdatesHelper$7: UpdatesHelper$7(android.app.Activity,java.io.File)
+com.appblade.framework.updates.UpdatesHelper$7: void run()
+com.appblade.framework.updates.UpdatesHelper$7$1
+com.appblade.framework.updates.UpdatesHelper$7$1: com.appblade.framework.updates.UpdatesHelper$7 this$1
+com.appblade.framework.updates.UpdatesHelper$7$1: java.io.File val$file
+com.appblade.framework.updates.UpdatesHelper$7$1: android.app.Activity val$activity
+com.appblade.framework.updates.UpdatesHelper$7$1: UpdatesHelper$7$1(com.appblade.framework.updates.UpdatesHelper$7,java.io.File,android.app.Activity)
+com.appblade.framework.updates.UpdatesHelper$7$1: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.updates.UpdatesHelper$7$2
+com.appblade.framework.updates.UpdatesHelper$7$2: com.appblade.framework.updates.UpdatesHelper$7 this$1
+com.appblade.framework.updates.UpdatesHelper$7$2: UpdatesHelper$7$2(com.appblade.framework.updates.UpdatesHelper$7)
+com.appblade.framework.updates.UpdatesHelper$7$2: void onClick(android.content.DialogInterface,int)
+com.appblade.framework.updates.UpdatesHelper$7$3
+com.appblade.framework.updates.UpdatesHelper$7$3: com.appblade.framework.updates.UpdatesHelper$7 this$1
+com.appblade.framework.updates.UpdatesHelper$7$3: UpdatesHelper$7$3(com.appblade.framework.updates.UpdatesHelper$7)
+com.appblade.framework.updates.UpdatesHelper$7$3: void onDismiss(android.content.DialogInterface)
+com.appblade.framework.utils.Base64
+com.appblade.framework.utils.Base64: int DEFAULT
+com.appblade.framework.utils.Base64: int NO_PADDING
+com.appblade.framework.utils.Base64: int NO_WRAP
+com.appblade.framework.utils.Base64: int CRLF
+com.appblade.framework.utils.Base64: int URL_SAFE
+com.appblade.framework.utils.Base64: int NO_CLOSE
+com.appblade.framework.utils.Base64: boolean $assertionsDisabled
+com.appblade.framework.utils.Base64: void <clinit>()
+com.appblade.framework.utils.Base64: byte[] decode(java.lang.String,int)
+com.appblade.framework.utils.Base64: byte[] decode(byte[],int)
+com.appblade.framework.utils.Base64: byte[] decode(byte[],int,int,int)
+com.appblade.framework.utils.Base64: java.lang.String encodeToString(byte[],int)
+com.appblade.framework.utils.Base64: java.lang.String encodeToString(byte[],int,int,int)
+com.appblade.framework.utils.Base64: byte[] encode(byte[],int)
+com.appblade.framework.utils.Base64: byte[] encode(byte[],int,int,int)
+com.appblade.framework.utils.Base64: Base64()
+com.appblade.framework.utils.Base64$Coder
+com.appblade.framework.utils.Base64$Coder: byte[] output
+com.appblade.framework.utils.Base64$Coder: int op
+com.appblade.framework.utils.Base64$Coder: Base64$Coder()
+com.appblade.framework.utils.Base64$Coder: boolean process(byte[],int,int,boolean)
+com.appblade.framework.utils.Base64$Coder: int maxOutputSize(int)
+com.appblade.framework.utils.Base64$Decoder
+com.appblade.framework.utils.Base64$Decoder: int[] DECODE
+com.appblade.framework.utils.Base64$Decoder: int[] DECODE_WEBSAFE
+com.appblade.framework.utils.Base64$Decoder: int SKIP
+com.appblade.framework.utils.Base64$Decoder: int EQUALS
+com.appblade.framework.utils.Base64$Decoder: int state
+com.appblade.framework.utils.Base64$Decoder: int value
+com.appblade.framework.utils.Base64$Decoder: int[] alphabet
+com.appblade.framework.utils.Base64$Decoder: void <clinit>()
+com.appblade.framework.utils.Base64$Decoder: Base64$Decoder(int,byte[])
+com.appblade.framework.utils.Base64$Decoder: int maxOutputSize(int)
+com.appblade.framework.utils.Base64$Decoder: boolean process(byte[],int,int,boolean)
+com.appblade.framework.utils.Base64$Encoder
+com.appblade.framework.utils.Base64$Encoder: int LINE_GROUPS
+com.appblade.framework.utils.Base64$Encoder: byte[] ENCODE
+com.appblade.framework.utils.Base64$Encoder: byte[] ENCODE_WEBSAFE
+com.appblade.framework.utils.Base64$Encoder: byte[] tail
+com.appblade.framework.utils.Base64$Encoder: int tailLen
+com.appblade.framework.utils.Base64$Encoder: int count
+com.appblade.framework.utils.Base64$Encoder: boolean do_padding
+com.appblade.framework.utils.Base64$Encoder: boolean do_newline
+com.appblade.framework.utils.Base64$Encoder: boolean do_cr
+com.appblade.framework.utils.Base64$Encoder: byte[] alphabet
+com.appblade.framework.utils.Base64$Encoder: boolean $assertionsDisabled
+com.appblade.framework.utils.Base64$Encoder: void <clinit>()
+com.appblade.framework.utils.Base64$Encoder: Base64$Encoder(int,byte[])
+com.appblade.framework.utils.Base64$Encoder: int maxOutputSize(int)
+com.appblade.framework.utils.Base64$Encoder: boolean process(byte[],int,int,boolean)
+com.appblade.framework.utils.ExceptionUtils
+com.appblade.framework.utils.ExceptionUtils: ExceptionUtils()
+com.appblade.framework.utils.ExceptionUtils: java.lang.String getStackTrace(java.lang.Throwable)
+com.appblade.framework.utils.HttpClientProvider
+com.appblade.framework.utils.HttpClientProvider: int SOCKET_OPERATION_TIMEOUT
+com.appblade.framework.utils.HttpClientProvider: HttpClientProvider()
+com.appblade.framework.utils.HttpClientProvider: org.apache.http.impl.client.DefaultHttpClient newInstance(java.lang.String)
+com.appblade.framework.utils.HttpUtils
+com.appblade.framework.utils.HttpUtils: java.lang.String HeaderLastModified
+com.appblade.framework.utils.HttpUtils: java.lang.String HeaderContentLength
+com.appblade.framework.utils.HttpUtils: java.lang.String HeaderContentType
+com.appblade.framework.utils.HttpUtils: java.lang.String HeaderAccept
+com.appblade.framework.utils.HttpUtils: java.lang.String ContentTypeJson
+com.appblade.framework.utils.HttpUtils: java.lang.String ContentTypeJpeg
+com.appblade.framework.utils.HttpUtils: java.lang.String ContentTypeMultipartFormData
+com.appblade.framework.utils.HttpUtils: java.lang.String ContentTypeOctetStream
+com.appblade.framework.utils.HttpUtils: HttpUtils()
+com.appblade.framework.utils.HttpUtils: long getHeaderAsLong(java.lang.String,java.lang.String)
+com.appblade.framework.utils.HttpUtils: org.apache.http.Header getHeader(java.lang.String,java.lang.String)
+com.appblade.framework.utils.HttpUtils: boolean isOK(org.apache.http.HttpResponse)
+com.appblade.framework.utils.HttpUtils: boolean isUnauthorized(org.apache.http.HttpResponse)
+com.appblade.framework.utils.IOUtils
+com.appblade.framework.utils.IOUtils: IOUtils()
+com.appblade.framework.utils.IOUtils: void safeClose(java.io.Closeable)
+com.appblade.framework.utils.IOUtils: void safeClose(org.apache.http.client.HttpClient)
+com.appblade.framework.utils.StringUtils
+com.appblade.framework.utils.StringUtils: int BUFFER_SIZE
+com.appblade.framework.utils.StringUtils: java.lang.String md5OfNull
+com.appblade.framework.utils.StringUtils: java.lang.String sha256OfNull
+com.appblade.framework.utils.StringUtils: StringUtils()
+com.appblade.framework.utils.StringUtils: java.lang.String readStream(java.io.InputStream)
+com.appblade.framework.utils.StringUtils: boolean isNullOrEmpty(java.lang.String)
+com.appblade.framework.utils.StringUtils: void append(java.lang.StringBuilder,java.lang.String,java.lang.Object[])
+com.appblade.framework.utils.StringUtils: int safeParse(java.lang.String,int)
+com.appblade.framework.utils.StringUtils: java.lang.String hmacSha256(java.lang.String,java.lang.String)
+com.appblade.framework.utils.StringUtils: byte[] sha256(java.lang.String)
+com.appblade.framework.utils.StringUtils: java.lang.String sha256FromInputStream(java.io.InputStream)
+com.appblade.framework.utils.StringUtils: java.lang.String md5(java.lang.String)
+com.appblade.framework.utils.StringUtils: java.lang.String md5FromFile(java.io.File)
+com.appblade.framework.utils.StringUtils: java.lang.String md5FromInputStream(java.io.InputStream)
+com.appblade.framework.utils.StringUtils: org.json.JSONArray parseStringToJSONArray(java.lang.String)
+com.appblade.framework.utils.StringUtils: org.json.JSONObject parseStringToJSONObject(java.lang.String)
+com.appblade.framework.utils.StringUtils: java.lang.String exceptionInfo(java.lang.Exception)
+com.appblade.framework.utils.SystemUtils
+com.appblade.framework.utils.SystemUtils: java.lang.String UserAgent
+com.appblade.framework.utils.SystemUtils: SystemUtils()
+com.appblade.framework.utils.SystemUtils: boolean hasPermission(android.content.pm.PackageInfo,java.lang.String)
+com.appblade.framework.utils.SystemUtils: java.lang.String getBestUniqueDeviceID(android.content.ContentResolver)
+com.appblade.framework.utils.SystemUtils: java.lang.String generateUniqueID(android.content.pm.PackageInfo)
+com.appblade.framework.utils.SystemUtils: java.lang.String hashedUuidOfPackageFile(android.content.pm.PackageInfo,java.lang.String)
+com.appblade.framework.utils.SystemUtils: java.lang.String hashedManifestFileUuid(android.content.pm.PackageInfo)
+com.appblade.framework.utils.SystemUtils: java.lang.String hashedExecutableUuid(android.content.pm.PackageInfo)
+com.appblade.framework.utils.SystemUtils: java.lang.String hashedStaticResourcesUuid(android.content.pm.PackageInfo)
+com.appblade.framework.utils.SystemUtils: java.lang.String hashedCertificateUuid(android.content.pm.PackageInfo)
+com.appblade.framework.utils.SystemUtils: java.lang.String getReadableFINGERPRINT()
+com.appblade.framework.utils.SystemUtils: java.lang.String getReadableApkFileNameFromPackageName(java.lang.String)
+com.cloudcovermusic.ccm.CCMApplication
+com.cloudcovermusic.ccm.CCMApplication: CCMApplication()
+com.cloudcovermusic.ccm.CCMForgotPwd
+com.cloudcovermusic.ccm.CCMForgotPwd: CCMForgotPwd()
+com.cloudcovermusic.ccm.CCMForgotPwd$1: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMForgotPwd$2: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMForgotPwd$3: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMForgotPwd$5: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMHelp
+com.cloudcovermusic.ccm.CCMHelp: CCMHelp()
+com.cloudcovermusic.ccm.CCMLogin
+com.cloudcovermusic.ccm.CCMLogin: CCMLogin()
+com.cloudcovermusic.ccm.CCMLogin$2: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMLogin$3: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMLogin$4: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer
+com.cloudcovermusic.ccm.CCMPlayer: CCMPlayer()
+com.cloudcovermusic.ccm.CCMPlayer: void onDrawerClosed(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer: void onDrawerOpened(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer$1: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer$2: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer$3: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer$4: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer$5: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer$6: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer$7: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMPlayer$8: void onClick(android.view.View)
+com.cloudcovermusic.ccm.CCMPolicyTerms
+com.cloudcovermusic.ccm.CCMPolicyTerms: CCMPolicyTerms()
+com.cloudcovermusic.ccm.CCMSettingActivity
+com.cloudcovermusic.ccm.CCMSettingActivity: CCMSettingActivity()
+com.cloudcovermusic.ccm.R$color: int ccm_action_button_backgroud_default
+com.cloudcovermusic.ccm.R$color: int ccm_action_button_backgroud_disabled
+com.cloudcovermusic.ccm.R$color: int ccm_action_button_backgroud_hover
+com.cloudcovermusic.ccm.R$color: int ccm_cancel_text_color
+com.cloudcovermusic.ccm.R$color: int ccm_error_bar_background
+com.cloudcovermusic.ccm.R$color: int ccm_help_header_color
+com.cloudcovermusic.ccm.R$color: int ccm_login_button_background
+com.cloudcovermusic.ccm.R$color: int ccm_login_edit_fields_bg_border
+com.cloudcovermusic.ccm.R$color: int ccm_login_password_email_text_color
+com.cloudcovermusic.ccm.R$color: int ccm_login_translucent_background
+com.cloudcovermusic.ccm.R$color: int ccm_login_username_text_color
+com.cloudcovermusic.ccm.R$color: int ccm_need_help_text_color
+com.cloudcovermusic.ccm.R$color: int ccm_player_action_bg_border
+com.cloudcovermusic.ccm.R$color: int ccm_player_action_text_color
+com.cloudcovermusic.ccm.R$color: int ccm_player_drawer_content_bg
+com.cloudcovermusic.ccm.R$color: int ccm_player_drawer_header
+com.cloudcovermusic.ccm.R$color: int ccm_player_track_translucent_background
+com.cloudcovermusic.ccm.R$color: int ccm_pressed_state_color
+com.cloudcovermusic.ccm.R$color: int ccm_seekbar_color
+com.cloudcovermusic.ccm.R$color: int ccm_translucent_background
+com.cloudcovermusic.ccm.R$dimen: int ccm_action_btn_radius
+com.cloudcovermusic.ccm.R$dimen: int ccm_action_btn_width
+com.cloudcovermusic.ccm.R$dimen: int ccm_button_padding_top_bottom
+com.cloudcovermusic.ccm.R$dimen: int ccm_button_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_forgot_big_left_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_forgot_big_right_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_forgot_bottom_button_image_bottom_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_forgot_bottom_button_image_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_forgot_bottom_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_forgot_edit_fields_padding
+com.cloudcovermusic.ccm.R$dimen: int ccm_forgot_left_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_forgot_right_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_forgot_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_help_content_margin_top
+com.cloudcovermusic.ccm.R$dimen: int ccm_help_divider_margin_top
+com.cloudcovermusic.ccm.R$dimen: int ccm_help_left_right_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_help_padding
+com.cloudcovermusic.ccm.R$dimen: int ccm_help_screen_message_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_help_screen_need_help_left_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_action_btn_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_app_logo_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_app_logo_width
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_bottom_bar_padding_top_bottom
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_edit_fields_padding
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_error_margin_left
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_error_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_generic_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_layout_container_padding
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_left_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_right_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_signin_drawable_padding
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_submit_left_right_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_login_username_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_notification_actions_right_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_notification_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_action_paddin_left_right
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_action_paddin_top_bottom
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_action_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_album_art_height
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_app_info_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_app_logo_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_app_logo_width
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_artist_info_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_artist_info_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_bottom_info_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_cancel_button_bottom_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_cancel_button_height
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_cancel_button_left_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_cancel_button_right_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_cancel_button_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_cancel_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_device_info_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_drawer_header_padding_right_left
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_drawer_header_padding_top_bottom
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_drawer_header_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_drawer_icon_padding
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_drawer_padding_right_left
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_drawer_padding_top_bottom
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_drawer_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_drawer_width
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_error_message_height
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_error_message_padding
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_generic_padding
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_generic_top_margin
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_layout_container_padding
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_remove_action_paddin_left_right
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_remove_action_paddin_top_bottom
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_song_info_text_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_start_and_stop_size
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_top_margin_large
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_track_background_padding_left_right
+com.cloudcovermusic.ccm.R$dimen: int ccm_player_track_background_padding_top_bottom
+com.cloudcovermusic.ccm.R$dimen: int ccm_trans_layout_text_size
+com.cloudcovermusic.ccm.R$drawable: int ccm_app_action_btn
+com.cloudcovermusic.ccm.R$drawable: int ccm_app_action_btn_invert_color
+com.cloudcovermusic.ccm.R$drawable: int ccm_app_logo
+com.cloudcovermusic.ccm.R$drawable: int ccm_bar_tracker
+com.cloudcovermusic.ccm.R$drawable: int ccm_cancel_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_drawer_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_forgot_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_generic_selector_state_bg_pressed
+com.cloudcovermusic.ccm.R$drawable: int ccm_generic_transparent_bg_selector
+com.cloudcovermusic.ccm.R$drawable: int ccm_gradient_divider
+com.cloudcovermusic.ccm.R$drawable: int ccm_help_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_help_option_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_large_login_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_login_edit_bg
+com.cloudcovermusic.ccm.R$drawable: int ccm_login_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_main_bg
+com.cloudcovermusic.ccm.R$drawable: int ccm_nav_logo
+com.cloudcovermusic.ccm.R$drawable: int ccm_next_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_next_track_selector
+com.cloudcovermusic.ccm.R$drawable: int ccm_no_album_art
+com.cloudcovermusic.ccm.R$drawable: int ccm_pause_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_play_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_play_icon_disabled
+com.cloudcovermusic.ccm.R$drawable: int ccm_play_track_selector
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_actions_bg
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_actions_left_selector_state_bg_pressed
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_actions_left_transparent_bg_selector
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_actions_right_selector_state_bg_pressed
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_actions_right_transparent_bg_selector
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_idle_1
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_idle_2
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_idle_3
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_idle_4
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_idle_5
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_idle_6
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_idle_7
+com.cloudcovermusic.ccm.R$drawable: int ccm_player_idle_8
+com.cloudcovermusic.ccm.R$drawable: int ccm_privacy_option_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_seekbar
+com.cloudcovermusic.ccm.R$drawable: int ccm_signout_option_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_skip_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_skip_icon_disabled
+com.cloudcovermusic.ccm.R$drawable: int ccm_terms_icon
+com.cloudcovermusic.ccm.R$drawable: int ccm_terms_option_icon
+com.cloudcovermusic.ccm.R$drawable: int ic_launcher
+com.cloudcovermusic.ccm.R$id: int cancel
+com.cloudcovermusic.ccm.R$id: int ccmAlbumArt
+com.cloudcovermusic.ccm.R$id: int ccmAlbumArtBanner
+com.cloudcovermusic.ccm.R$id: int ccmArtist
+com.cloudcovermusic.ccm.R$id: int ccmArtistInfo
+com.cloudcovermusic.ccm.R$id: int ccmDrawer
+com.cloudcovermusic.ccm.R$id: int ccmDrawerHelpText
+com.cloudcovermusic.ccm.R$id: int ccmDrawerMenuText
+com.cloudcovermusic.ccm.R$id: int ccmDrawerPolicyText
+com.cloudcovermusic.ccm.R$id: int ccmDrawerSignOutText
+com.cloudcovermusic.ccm.R$id: int ccmDrawerTermsText
+com.cloudcovermusic.ccm.R$id: int ccmEmail
+com.cloudcovermusic.ccm.R$id: int ccmErrorLabel
+com.cloudcovermusic.ccm.R$id: int ccmForgotpwd
+com.cloudcovermusic.ccm.R$id: int ccmForgotpwdText
+com.cloudcovermusic.ccm.R$id: int ccmHelp
+com.cloudcovermusic.ccm.R$id: int ccmHelpContent
+com.cloudcovermusic.ccm.R$id: int ccmHelpTitle
+com.cloudcovermusic.ccm.R$id: int ccmLogin
+com.cloudcovermusic.ccm.R$id: int ccmLogo
+com.cloudcovermusic.ccm.R$id: int ccmNeedHelpText
+com.cloudcovermusic.ccm.R$id: int ccmNextTrack
+com.cloudcovermusic.ccm.R$id: int ccmPassword
+com.cloudcovermusic.ccm.R$id: int ccmPauseTrack
+com.cloudcovermusic.ccm.R$id: int ccmPlayText
+com.cloudcovermusic.ccm.R$id: int ccmPlayTrack
+com.cloudcovermusic.ccm.R$id: int ccmPlayerLayout
+com.cloudcovermusic.ccm.R$id: int ccmPrivacyPanel
+com.cloudcovermusic.ccm.R$id: int ccmSignIn
+com.cloudcovermusic.ccm.R$id: int ccmSignInText
+com.cloudcovermusic.ccm.R$id: int ccmSkipText
+com.cloudcovermusic.ccm.R$id: int ccmSongInfo
+com.cloudcovermusic.ccm.R$id: int ccmSubmit
+com.cloudcovermusic.ccm.R$id: int ccmTermsPanel
+com.cloudcovermusic.ccm.R$id: int ccmTitle
+com.cloudcovermusic.ccm.R$id: int ccmTrackActionPanel
+com.cloudcovermusic.ccm.R$id: int ccmTrackCurrentTime
+com.cloudcovermusic.ccm.R$id: int ccmTrackInfoNoti
+com.cloudcovermusic.ccm.R$id: int ccmTrackSeek
+com.cloudcovermusic.ccm.R$id: int ccmTrackTotalTime
+com.cloudcovermusic.ccm.R$id: int ccmUsername
+com.cloudcovermusic.ccm.R$id: int ccm_dialog_text
+com.cloudcovermusic.ccm.R$id: int ccm_tvOk
+com.cloudcovermusic.ccm.R$id: int container
+com.cloudcovermusic.ccm.R$id: int drawer
+com.cloudcovermusic.ccm.R$id: int drawerLayout
+com.cloudcovermusic.ccm.R$id: int flWebpre
+com.cloudcovermusic.ccm.R$id: int heading
+com.cloudcovermusic.ccm.R$id: int loginPanel
+com.cloudcovermusic.ccm.R$id: int needHelpPanel
+com.cloudcovermusic.ccm.R$id: int pause
+com.cloudcovermusic.ccm.R$id: int pauseTrack
+com.cloudcovermusic.ccm.R$id: int play
+com.cloudcovermusic.ccm.R$id: int playTrack
+com.cloudcovermusic.ccm.R$id: int progressBar
+com.cloudcovermusic.ccm.R$id: int relativeLayout1
+com.cloudcovermusic.ccm.R$id: int scrollView
+com.cloudcovermusic.ccm.R$id: int signoutPanel
+com.cloudcovermusic.ccm.R$id: int skipTrack
+com.cloudcovermusic.ccm.R$id: int textView1
+com.cloudcovermusic.ccm.R$id: int trackSeekLayout
+com.cloudcovermusic.ccm.R$id: int viewflipper
+com.cloudcovermusic.ccm.R$id: int webView
+com.cloudcovermusic.ccm.R$layout: int ccm_custom_notification_layout
+com.cloudcovermusic.ccm.R$layout: int ccm_forgotpwd_dialog_layout
+com.cloudcovermusic.ccm.R$layout: int ccm_forgotpwd_screen_layout
+com.cloudcovermusic.ccm.R$layout: int ccm_help_screen_layout
+com.cloudcovermusic.ccm.R$layout: int ccm_login_help_screen_layout
+com.cloudcovermusic.ccm.R$layout: int ccm_login_screen_layout
+com.cloudcovermusic.ccm.R$layout: int ccm_player_idle_album_art_layout
+com.cloudcovermusic.ccm.R$layout: int ccm_player_screen_layout
+com.cloudcovermusic.ccm.R$layout: int ccm_privacy_terms_screen_layout
+com.cloudcovermusic.ccm.R$string: int app_name
+com.cloudcovermusic.ccm.R$string: int ccm_email_id
+com.cloudcovermusic.ccm.R$string: int ccm_forgot_pwd_dialog_empty_text
+com.cloudcovermusic.ccm.R$string: int ccm_forgot_pwd_dialog_failure_text
+com.cloudcovermusic.ccm.R$string: int ccm_forgot_pwd_dialog_success_text
+com.cloudcovermusic.ccm.R$string: int ccm_forgot_pwd_tittle
+com.cloudcovermusic.ccm.R$string: int ccm_help_content_login
+com.cloudcovermusic.ccm.R$string: int ccm_help_content_player
+com.cloudcovermusic.ccm.R$string: int ccm_login_button
+com.cloudcovermusic.ccm.R$string: int ccm_login_forgot_password
+com.cloudcovermusic.ccm.R$string: int ccm_login_help
+com.cloudcovermusic.ccm.R$string: int ccm_login_password_hint
+com.cloudcovermusic.ccm.R$string: int ccm_login_show_password
+com.cloudcovermusic.ccm.R$string: int ccm_login_text
+com.cloudcovermusic.ccm.R$string: int ccm_login_username_hint
+com.cloudcovermusic.ccm.R$string: int ccm_menu_option_settings
+com.cloudcovermusic.ccm.R$string: int ccm_ok
+com.cloudcovermusic.ccm.R$string: int ccm_or
+com.cloudcovermusic.ccm.R$string: int ccm_player_activating_player_progress_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_application_info
+com.cloudcovermusic.ccm.R$string: int ccm_player_cancel
+com.cloudcovermusic.ccm.R$string: int ccm_player_device_info
+com.cloudcovermusic.ccm.R$string: int ccm_player_dislike
+com.cloudcovermusic.ccm.R$string: int ccm_player_error_playing_track_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_error_playing_track_message_detail
+com.cloudcovermusic.ccm.R$string: int ccm_player_get_command_progress_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_get_next_track_progress_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_inappropriate
+com.cloudcovermusic.ccm.R$string: int ccm_player_logging_out_progress_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_logout_failed_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_menu
+com.cloudcovermusic.ccm.R$string: int ccm_player_menu_option_logout
+com.cloudcovermusic.ccm.R$string: int ccm_player_option_help
+com.cloudcovermusic.ccm.R$string: int ccm_player_option_policy
+com.cloudcovermusic.ccm.R$string: int ccm_player_option_sign_out
+com.cloudcovermusic.ccm.R$string: int ccm_player_option_terms
+com.cloudcovermusic.ccm.R$string: int ccm_player_pause
+com.cloudcovermusic.ccm.R$string: int ccm_player_play
+com.cloudcovermusic.ccm.R$string: int ccm_player_player_empty_playlist_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_player_inactive_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_player_undefined_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_remove_song
+com.cloudcovermusic.ccm.R$string: int ccm_player_skip
+com.cloudcovermusic.ccm.R$string: int ccm_player_track_init_progress_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_track_retry_init_progress_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_track_unplayable_message
+com.cloudcovermusic.ccm.R$string: int ccm_player_wrong_station
+com.cloudcovermusic.ccm.R$string: int ccm_reached_max_limit_for_skip_track
+com.cloudcovermusic.ccm.R$string: int ccm_requesting
+com.cloudcovermusic.ccm.R$string: int ccm_retry_in_time
+com.cloudcovermusic.ccm.R$string: int ccm_settings_album_art_summary
+com.cloudcovermusic.ccm.R$string: int ccm_settings_album_art_title
+com.cloudcovermusic.ccm.R$string: int ccm_settings_category_performance
+com.cloudcovermusic.ccm.R$string: int ccm_settings_category_server
+com.cloudcovermusic.ccm.R$string: int ccm_settings_server_domain_summary
+com.cloudcovermusic.ccm.R$string: int ccm_settings_server_domain_title
+com.cloudcovermusic.ccm.R$string: int ccm_song
+com.cloudcovermusic.ccm.R$string: int ccm_status
+com.cloudcovermusic.ccm.R$string: int ccm_submit_btn
+com.cloudcovermusic.ccm.R$string: int ccm_try_again_button
+com.cloudcovermusic.ccm.R$string: int ccm_username
+com.cloudcovermusic.ccm.R$string: int error_bad_request
+com.cloudcovermusic.ccm.R$string: int error_internal_server
+com.cloudcovermusic.ccm.R$string: int error_msg_failed_json_conversion
+com.cloudcovermusic.ccm.R$string: int error_msg_incorrect_username_or_password
+com.cloudcovermusic.ccm.R$string: int error_network_unavailable
+com.cloudcovermusic.ccm.R$string: int error_server_unreachable
+com.cloudcovermusic.ccm.R$string: int error_unauthorized
+com.cloudcovermusic.ccm.R$string: int error_unprocessable_request
+com.cloudcovermusic.ccm.R$string: int error_validate_credentials_failed
+com.cloudcovermusic.ccm.R$string: int field_missing_msg
+com.cloudcovermusic.ccm.R$string: int login_failed
+com.cloudcovermusic.ccm.R$string: int screen_type
+com.cloudcovermusic.ccm.R$string: int sign_in_progress_message
+com.cloudcovermusic.ccm.R$string: int toast_message_application_recovering
+com.cloudcovermusic.ccm.R$style: int AppBaseTheme
+com.cloudcovermusic.ccm.R$style: int AppTheme
+com.cloudcovermusic.ccm.R$xml: int settings
+com.google.gson.ExclusionStrategy
+com.google.gson.FieldAttributes
+com.google.gson.FieldNamingPolicy
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy[] values()
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy valueOf(java.lang.String)
+com.google.gson.FieldNamingStrategy
+com.google.gson.Gson
+com.google.gson.GsonBuilder
+com.google.gson.InstanceCreator
+com.google.gson.JsonArray
+com.google.gson.JsonDeserializationContext
+com.google.gson.JsonDeserializer
+com.google.gson.JsonElement
+com.google.gson.JsonIOException
+com.google.gson.JsonNull
+com.google.gson.JsonObject
+com.google.gson.JsonParseException
+com.google.gson.JsonParser
+com.google.gson.JsonPrimitive
+com.google.gson.JsonSerializationContext
+com.google.gson.JsonSerializer
+com.google.gson.JsonStreamParser
+com.google.gson.JsonSyntaxException
+com.google.gson.LongSerializationPolicy
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy[] values()
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy valueOf(java.lang.String)
+com.google.gson.TypeAdapter
+com.google.gson.TypeAdapterFactory
+com.google.gson.annotations.Expose
+com.google.gson.annotations.SerializedName
+com.google.gson.annotations.Since
+com.google.gson.annotations.Until
+com.google.gson.internal.$Gson$Preconditions
+com.google.gson.internal.$Gson$Types
+com.google.gson.internal.ConstructorConstructor
+com.google.gson.internal.Excluder
+com.google.gson.internal.JsonReaderInternalAccess
+com.google.gson.internal.JsonReaderInternalAccess: com.google.gson.internal.JsonReaderInternalAccess INSTANCE
+com.google.gson.internal.JsonReaderInternalAccess: JsonReaderInternalAccess()
+com.google.gson.internal.JsonReaderInternalAccess: void promoteNameToValue(com.google.gson.stream.JsonReader)
+com.google.gson.internal.LazilyParsedNumber
+com.google.gson.internal.LinkedTreeMap
+com.google.gson.internal.ObjectConstructor
+com.google.gson.internal.Primitives
+com.google.gson.internal.Streams
+com.google.gson.internal.UnsafeAllocator
+com.google.gson.internal.bind.ArrayTypeAdapter
+com.google.gson.internal.bind.CollectionTypeAdapterFactory
+com.google.gson.internal.bind.DateTypeAdapter
+com.google.gson.internal.bind.JsonTreeReader
+com.google.gson.internal.bind.JsonTreeWriter
+com.google.gson.internal.bind.MapTypeAdapterFactory
+com.google.gson.internal.bind.ObjectTypeAdapter
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter
+com.google.gson.internal.bind.SqlDateTypeAdapter
+com.google.gson.internal.bind.TimeTypeAdapter
+com.google.gson.internal.bind.TypeAdapters
+com.google.gson.reflect.TypeToken
+com.google.gson.stream.JsonReader
+com.google.gson.stream.JsonReader: char[] NON_EXECUTE_PREFIX
+com.google.gson.stream.JsonReader: long MIN_INCOMPLETE_INTEGER
+com.google.gson.stream.JsonReader: int PEEKED_NONE
+com.google.gson.stream.JsonReader: int PEEKED_BEGIN_OBJECT
+com.google.gson.stream.JsonReader: int PEEKED_END_OBJECT
+com.google.gson.stream.JsonReader: int PEEKED_BEGIN_ARRAY
+com.google.gson.stream.JsonReader: int PEEKED_END_ARRAY
+com.google.gson.stream.JsonReader: int PEEKED_TRUE
+com.google.gson.stream.JsonReader: int PEEKED_FALSE
+com.google.gson.stream.JsonReader: int PEEKED_NULL
+com.google.gson.stream.JsonReader: int PEEKED_SINGLE_QUOTED
+com.google.gson.stream.JsonReader: int PEEKED_DOUBLE_QUOTED
+com.google.gson.stream.JsonReader: int PEEKED_UNQUOTED
+com.google.gson.stream.JsonReader: int PEEKED_BUFFERED
+com.google.gson.stream.JsonReader: int PEEKED_SINGLE_QUOTED_NAME
+com.google.gson.stream.JsonReader: int PEEKED_DOUBLE_QUOTED_NAME
+com.google.gson.stream.JsonReader: int PEEKED_UNQUOTED_NAME
+com.google.gson.stream.JsonReader: int PEEKED_LONG
+com.google.gson.stream.JsonReader: int PEEKED_NUMBER
+com.google.gson.stream.JsonReader: int PEEKED_EOF
+com.google.gson.stream.JsonReader: int NUMBER_CHAR_NONE
+com.google.gson.stream.JsonReader: int NUMBER_CHAR_SIGN
+com.google.gson.stream.JsonReader: int NUMBER_CHAR_DIGIT
+com.google.gson.stream.JsonReader: int NUMBER_CHAR_DECIMAL
+com.google.gson.stream.JsonReader: int NUMBER_CHAR_FRACTION_DIGIT
+com.google.gson.stream.JsonReader: int NUMBER_CHAR_EXP_E
+com.google.gson.stream.JsonReader: int NUMBER_CHAR_EXP_SIGN
+com.google.gson.stream.JsonReader: int NUMBER_CHAR_EXP_DIGIT
+com.google.gson.stream.JsonReader: java.io.Reader in
+com.google.gson.stream.JsonReader: boolean lenient
+com.google.gson.stream.JsonReader: char[] buffer
+com.google.gson.stream.JsonReader: int pos
+com.google.gson.stream.JsonReader: int limit
+com.google.gson.stream.JsonReader: int lineNumber
+com.google.gson.stream.JsonReader: int lineStart
+com.google.gson.stream.JsonReader: int peeked
+com.google.gson.stream.JsonReader: long peekedLong
+com.google.gson.stream.JsonReader: int peekedNumberLength
+com.google.gson.stream.JsonReader: java.lang.String peekedString
+com.google.gson.stream.JsonReader: int[] stack
+com.google.gson.stream.JsonReader: int stackSize
+com.google.gson.stream.JsonReader: JsonReader(java.io.Reader)
+com.google.gson.stream.JsonReader: void setLenient(boolean)
+com.google.gson.stream.JsonReader: boolean isLenient()
+com.google.gson.stream.JsonReader: void beginArray()
+com.google.gson.stream.JsonReader: void endArray()
+com.google.gson.stream.JsonReader: void beginObject()
+com.google.gson.stream.JsonReader: void endObject()
+com.google.gson.stream.JsonReader: boolean hasNext()
+com.google.gson.stream.JsonReader: com.google.gson.stream.JsonToken peek()
+com.google.gson.stream.JsonReader: int doPeek()
+com.google.gson.stream.JsonReader: int peekKeyword()
+com.google.gson.stream.JsonReader: int peekNumber()
+com.google.gson.stream.JsonReader: boolean isLiteral(char)
+com.google.gson.stream.JsonReader: java.lang.String nextName()
+com.google.gson.stream.JsonReader: java.lang.String nextString()
+com.google.gson.stream.JsonReader: boolean nextBoolean()
+com.google.gson.stream.JsonReader: void nextNull()
+com.google.gson.stream.JsonReader: double nextDouble()
+com.google.gson.stream.JsonReader: long nextLong()
+com.google.gson.stream.JsonReader: java.lang.String nextQuotedValue(char)
+com.google.gson.stream.JsonReader: java.lang.String nextUnquotedValue()
+com.google.gson.stream.JsonReader: void skipQuotedValue(char)
+com.google.gson.stream.JsonReader: void skipUnquotedValue()
+com.google.gson.stream.JsonReader: int nextInt()
+com.google.gson.stream.JsonReader: void close()
+com.google.gson.stream.JsonReader: void skipValue()
+com.google.gson.stream.JsonReader: void push(int)
+com.google.gson.stream.JsonReader: boolean fillBuffer(int)
+com.google.gson.stream.JsonReader: int getLineNumber()
+com.google.gson.stream.JsonReader: int getColumnNumber()
+com.google.gson.stream.JsonReader: int nextNonWhitespace(boolean)
+com.google.gson.stream.JsonReader: void checkLenient()
+com.google.gson.stream.JsonReader: void skipToEndOfLine()
+com.google.gson.stream.JsonReader: boolean skipTo(java.lang.String)
+com.google.gson.stream.JsonReader: java.lang.String toString()
+com.google.gson.stream.JsonReader: char readEscapeCharacter()
+com.google.gson.stream.JsonReader: java.io.IOException syntaxError(java.lang.String)
+com.google.gson.stream.JsonReader: void consumeNonExecutePrefix()
+com.google.gson.stream.JsonReader: int access$000(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader: int access$100(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader: int access$002(com.google.gson.stream.JsonReader,int)
+com.google.gson.stream.JsonReader: int access$200(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader: int access$300(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonReader: void <clinit>()
+com.google.gson.stream.JsonReader$1
+com.google.gson.stream.JsonReader$1: JsonReader$1()
+com.google.gson.stream.JsonReader$1: void promoteNameToValue(com.google.gson.stream.JsonReader)
+com.google.gson.stream.JsonScope
+com.google.gson.stream.JsonScope: int EMPTY_ARRAY
+com.google.gson.stream.JsonScope: int NONEMPTY_ARRAY
+com.google.gson.stream.JsonScope: int EMPTY_OBJECT
+com.google.gson.stream.JsonScope: int DANGLING_NAME
+com.google.gson.stream.JsonScope: int NONEMPTY_OBJECT
+com.google.gson.stream.JsonScope: int EMPTY_DOCUMENT
+com.google.gson.stream.JsonScope: int NONEMPTY_DOCUMENT
+com.google.gson.stream.JsonScope: int CLOSED
+com.google.gson.stream.JsonScope: JsonScope()
+com.google.gson.stream.JsonToken
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken BEGIN_ARRAY
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken END_ARRAY
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken BEGIN_OBJECT
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken END_OBJECT
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken NAME
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken STRING
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken NUMBER
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken BOOLEAN
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken NULL
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken END_DOCUMENT
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken[] $VALUES
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken[] values()
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken valueOf(java.lang.String)
+com.google.gson.stream.JsonToken: JsonToken(java.lang.String,int)
+com.google.gson.stream.JsonToken: void <clinit>()
+com.google.gson.stream.JsonWriter
+com.google.gson.stream.JsonWriter: java.lang.String[] REPLACEMENT_CHARS
+com.google.gson.stream.JsonWriter: java.lang.String[] HTML_SAFE_REPLACEMENT_CHARS
+com.google.gson.stream.JsonWriter: java.io.Writer out
+com.google.gson.stream.JsonWriter: int[] stack
+com.google.gson.stream.JsonWriter: int stackSize
+com.google.gson.stream.JsonWriter: java.lang.String indent
+com.google.gson.stream.JsonWriter: java.lang.String separator
+com.google.gson.stream.JsonWriter: boolean lenient
+com.google.gson.stream.JsonWriter: boolean htmlSafe
+com.google.gson.stream.JsonWriter: java.lang.String deferredName
+com.google.gson.stream.JsonWriter: boolean serializeNulls
+com.google.gson.stream.JsonWriter: JsonWriter(java.io.Writer)
+com.google.gson.stream.JsonWriter: void setIndent(java.lang.String)
+com.google.gson.stream.JsonWriter: void setLenient(boolean)
+com.google.gson.stream.JsonWriter: boolean isLenient()
+com.google.gson.stream.JsonWriter: void setHtmlSafe(boolean)
+com.google.gson.stream.JsonWriter: boolean isHtmlSafe()
+com.google.gson.stream.JsonWriter: void setSerializeNulls(boolean)
+com.google.gson.stream.JsonWriter: boolean getSerializeNulls()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter beginArray()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter endArray()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter beginObject()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter endObject()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter open(int,java.lang.String)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter close(int,int,java.lang.String)
+com.google.gson.stream.JsonWriter: void push(int)
+com.google.gson.stream.JsonWriter: int peek()
+com.google.gson.stream.JsonWriter: void replaceTop(int)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter name(java.lang.String)
+com.google.gson.stream.JsonWriter: void writeDeferredName()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.String)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter nullValue()
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(boolean)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(double)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(long)
+com.google.gson.stream.JsonWriter: com.google.gson.stream.JsonWriter value(java.lang.Number)
+com.google.gson.stream.JsonWriter: void flush()
+com.google.gson.stream.JsonWriter: void close()
+com.google.gson.stream.JsonWriter: void string(java.lang.String)
+com.google.gson.stream.JsonWriter: void newline()
+com.google.gson.stream.JsonWriter: void beforeName()
+com.google.gson.stream.JsonWriter: void beforeValue(boolean)
+com.google.gson.stream.JsonWriter: void <clinit>()
+com.google.gson.stream.MalformedJsonException
+com.google.gson.stream.MalformedJsonException: long serialVersionUID
+com.google.gson.stream.MalformedJsonException: MalformedJsonException(java.lang.String)
+com.google.gson.stream.MalformedJsonException: MalformedJsonException(java.lang.String,java.lang.Throwable)
+com.google.gson.stream.MalformedJsonException: MalformedJsonException(java.lang.Throwable)

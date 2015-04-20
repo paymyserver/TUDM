@@ -1,0 +1,4 @@
+F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\classes\debug
+F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\pre-dexed\debug\gson-2.2.4-ce9cd212bdcc4f9c0109d78850c55733293a1bec.jar
+F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\pre-dexed\debug\appblade-framework-28a91d25bcd5edc107723ff756059733cc10fb38.jar
+F:\MADWP\ccm-android2\CCMAndroid\build\intermediates\pre-dexed\debug\android-support-v4-7de7b46aec7b67b7bdfe6932562e15d0236d8b51.jar
